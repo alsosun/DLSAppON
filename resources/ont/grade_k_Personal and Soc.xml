@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<curriculum>
+<pdf>http://www.edu.gov.on.ca/eng/curriculum/elementary/kindercurrb.pdf</pdf>
+  <strand id="Self Awareness and Self Reliance">
+    <strand_text>Self Awareness and Self Reliance</strand_text>
+    <overalls>
+      <overall id="A">
+        <overall_text>demonstrate a sense of identity and a positive self-image</overall_text>
+        <specifics>
+          <specific>1. recognize personal interests, strengths, and accomplishments [A]* 
+Student Talk: “I can sing a song in my language.” “I can count.” “I can write my name.” “I did up my own zipper.” “I can reach the lights now.” “I can play soccer.” “I take piano lessons.” “I’m a good runner.” “I can draw pictures.” “I helped my dad set the table.” </specific>
+          <specific>2. identify and talk about their own interests and preferences [A]
+Student Talk: “I like dancing at the powwow!” “I like collecting bugs but I don’t like spiders.” “Gym is fun!” </specific>
+          <specific>3. express their thoughts (e.g., on a science discovery, on something they have made) and share experiences (e.g., experiences at home, cultural experiences) [A] </specific>
+        </specifics>
+      </overall>
+      <overall id="B">
+        <overall_text>demonstrate a beginning understanding of the diversity in individuals, families, schools, and the wider community</overall_text>
+        <specifics>
+          <specific>4. develop empathy for others, and acknowledge and respond to each other’s feelings (e.g., tell an adult when another child is hurt/sick/upset, role-play emotions with dolls and puppets) 
+Teacher Prompts: “Why is the main character in the story scared? How would you feel? What do you think he could do to make himself feel better?” [B] </specific>
+          <specific>5. demonstrate respect and consideration for individual differences and alternative points of view (e.g., help a friend who speaks another language, adapt behaviour to accommodate a classmate’s ideas) [B] </specific>
+          <specific>6. talk about events or retell stories that reflect their own heritage and cultural background and the heritage and cultural backgrounds of others (e.g., traditions, birthdays, cultural events, myths, Canadian symbols, holidays) [B] </specific>
+        </specifics>
+      </overall>
+      <overall id="C">
+        <overall_text>demonstrate independence, self-regulation, and a willingness to take responsibility in learning and other activities</overall_text>
+        <specifics>
+          <specific>7. demonstrate self-reliance and a sense of responsibility (e.g., separate willingly from parents when they arrive at school, dress themselves at school, make choices and decisions on their own, take care of personal belongings, know when to seek assistance, know how to get materials they need) [C] </specific>
+          <specific>8. demonstrate a willingness to try new activities (e.g., experiment with new materials/tools, try out activities in a different learning centre, join in the singing of a song, select and persist with challenging activities, experiment with writing) [C] </specific>
+          <specific>9. begin to demonstrate self-control (e.g., be aware of and label their own emotions, accept help to calm down, calm them-selves down after being upset) and adapt behaviour to different contexts within the school environment (e.g., follow routines and rules in the classroom, gym, library, playground) [C] </specific>
+          <specific>10. demonstrate self-motivation, initiative, and confidence in their approach to learning by selecting and completing learning tasks (e.g., choose learning centres independently, try something new, persevere with tasks) [C] </specific>
+          <specific>11. interact cooperatively with others in classroom events and activities (e.g., offer and accept help in group situations, join in small- and large-group games and activities, join in democratic decision making) [C] </specific>
+          <specific>12. adapt to new situations (e.g., having visitors in the classroom, having a different teacher occasionally, going on a field trip, riding the school bus; initially: adapt with a great deal of support from the teachers; eventually: adapt with less assistance) [C] </specific>
+        </specifics>
+      </overall>
+	</overalls> 
+ </strand>
+  <strand id="Social Relationships">
+    <strand_text>Social Relationships</strand_text>
+    <overalls>
+      <overall id="D">
+        <overall_text>demonstrate an ability to use problem-solving skills in a variety of social contexts</overall_text>
+        <specifics>
+          <specific>13. use a variety of simple strategies to solve social problems (e.g., seek assistance from the teacher when needed, use pictures and/or words to express their feelings, develop an awareness of honesty, talk to peers about possible solutions) [D] </specific>
+        </specifics>
+      </overall>
+      <overall id="E">
+        <overall_text>identify and use social skills in play and other contexts</overall_text>
+        <specifics>
+          <specific>14. act and talk with peers and adults by expressing and accepting positive messages (e.g., use an appropriate tone of voice and gestures, give compliments, give and accept constructive criticism, use “I” messages) [E] 
+Student Talk: “Fatima helped me pick up the blocks.” “I didn’t like it when you took my book.” “That’s a good painting.” </specific>
+          <specific>15. demonstrate the ability to take turns in activities and discussions (e.g., engage in play activities with others, listen to peers and adults) [E] 
+Student Talk: “You can be the firefighter this time.” </specific>
+          <specific>16. demonstrate an awareness of ways of making and keeping friends (e.g., sharing, listening, talking, helping; entering into play or joining a group with guidance from the teacher) [E] 
+Student Talk: “I like what you’re building, can I help?” “Do you want to look at this book with me?” “Let’s put on a puppet show.” “Do you want to be the waiter? I’d like to order a pizza, please.” </specific>
+        </specifics>
+      </overall>
+    </overalls>
+  </strand>
+  <strand id="Awareness of Surroundings">
+    <strand_text>Awareness of Surroundings</strand_text>
+    <overalls />
+    <overalls>
+      <overall id="F">
+        <overall_text>demonstrate an awareness of their surroundings</overall_text>
+        <specifics>
+          <specific>17. identify people who work in the community, and talk about what they do (e.g., farmer, park ranger, police officer, nurse, Aboriginal healer, store clerk, engineer, baker) [F] </specific>
+          <specific>18. recognize special places and buildings within their community, both natural and human-made, and talk about their functions (e.g., farm, church, hospital, mosque, sweat lodge, arena, mine, cave) [F] </specific>
+          <specific>19. develop an awareness of ways in which people adapt to the places in which they live (e.g., children in cities may live in high-rise buildings and use sidewalks and the subway; children in the country may take the bus to school) [F] </specific>
+          <specific>20. demonstrate an awareness of different kinds of weather and ways in which people adapt to the weather (e.g., wearing sunscreen, wearing hats and boots, using an umbrella, flying kites, taking part in winter and summer sports) [F] </specific>
+        </specifics>
+      </overall>
+    </overalls>
+  </strand>
+</curriculum>

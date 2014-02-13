@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<curriculum>
+<pdf>http://www.edu.gov.on.ca/eng/curriculum/elementary/kindercurrb.pdf</pdf>
+  <strand id="Well-Being">
+    <strand_text>Well-Being</strand_text>
+    <overalls>
+      <overall id="A">
+        <overall_text>demonstrate an awareness of health and safety practices for themselves and others and a basic awareness of their own well-being</overall_text>
+        <specifics>
+          <specific>1. begin to demonstrate an understanding of the effects of healthy, active living (e.g., having daily exercise, adequate sleep, proper hydration) on the mind and body [A]* 
+Student Talk: “I like going for a walk after school.” “My heart is beating fast.” “I’m thirsty from all that running.” “Feel my forehead. I’m sweating from playing outside.” </specific>
+          <specific>2. investigate the benefits of nutritious foods (e.g., nutritious snacks, healthy meals, foods from various cultures) and explore ways of ensuring healthy eating (e.g., buying nutritious food for meals, avoiding foods to which they are allergic) [A] 
+Student Talk: “Eating fruit makes me strong.” “Jamal can’t eat peanut butter.” “I ate an apple for a snack today.” 
+Sample Contexts: field trips to a farm or grocery store, discussions in the classroom with a nutrition expert from the community </specific>
+          <specific>3. practise and discuss appropriate personal hygiene that promotes personal, family, and community health (e.g., cover mouth when coughing or sneezing, use a tissue, wash hands, brush teeth) [A] </specific>
+          <specific>4. talk about safe and unsafe situations as they arise in the classroom and discuss ways to be safe (e.g., memorize full name, address, telephone number; use scissors, learning centre materials, playground equipment safely), including identifying and applying basic safety rules (e.g., rules for bus and traffic safety, water and fire safety, electrical safety, Internet safety, outdoor play) [A] 
+Student Talk: “No pushing on the slide.” “I wear my helmet whenever I ride my bike.” “He is carrying scissors the wrong way.” </specific>
+          <specific>5. discuss what action to take when they feel unsafe or uncomfortable, and when and how to seek assistance in unsafe situations (e.g., action in response to bullying, inappropriate touching; seeking assistance from block parents, 911, playground monitors) [A] 
+Student Talk: “There is broken glass in the yard.” “The climber is broken.” “A big kid was mean to me in the playground.” “If a dog that’s by itself growls at me, I should look for a block parent’s house.” </specific>
+          <specific>6. identify substances that are harmful to the body (e.g., allergens, cleaning products, inappropriate medicines, tobacco) [A] </specific>
+          <specific>7. discuss what makes them happy and unhappy, and why [A] 
+Student Talk: “I like it when my mom reads to me.” “I was sad when my friend moved.” “I don’t like it when I feel sick.” 
+</specific>
+        </specifics>
+      </overall>
+    </overalls>
+  </strand>
+  <strand id="Physical Development">
+    <strand_text>Physical Development</strand_text>
+    <overalls>
+      <overall id="B">
+        <overall_text>participate willingly in a variety of activities that require the use of both large and small muscles;
+C. develop control of large muscles (gross-motor control) in a variety of contexts</overall_text>
+        <specifics>
+          <specific>8. participate actively in creative movement and other daily physical activities (e.g., dance, games, outdoor play, fitness breaks) [B] 
+Student Talk: “Let’s play musical hoops!” </specific>
+          <specific>9. demonstrate persistence while engaged in activities that require the use of both large and small muscles (e.g., tossing and catching beanbags, skipping, lacing, drawing) [B] 
+Student Talk: “I finally finished my painting. Come and see it.” “Running around our field was hard, but I did it!” </specific>
+          <specific>10. demonstrate strategies for engaging in cooperative play in a variety of games and activities [B] 
+Student Talk: “It’s your turn.” “Can I try that?” </specific>
+        </specifics>
+      </overall>
+      <overall id="C">
+        <overall_text>develop control of large muscles (gross-motor control) in a variety of contexts</overall_text>
+        <specifics>
+          <specific>11. demonstrate spatial awareness in activities that require the use of large muscles (e.g., find their own personal space in the gym, avoid bumping other children when moving, practise directional changes) [C] 
+Teacher Prompts: “Move around the gym with your arms in the air. Now try moving in a different way.” “How many directions can you move in?” “We’re going to walk around our hoops. Now jump inside.” “Be careful not to bump into your partner.” “Find a space to stand where you can see me. We’re going to stretch.” </specific>
+          <specific>12. begin to demonstrate control of large muscles with and without equipment 
+(e.g., climb and balance on playground equipment; roll, throw, and catch a variety of balls; demonstrate balance and coordination during parachute games; hop, slide, or gallop in the gym or outdoors) [C] </specific>
+          <specific>13. begin to demonstrate balance, whole-body and hand-eye coordination, and flexibility in movement (e.g., run, jump, climb, walk on the balance beam, play beach-ball tennis, catch a ball, play hopscotch) [C] 
+Teacher Prompts: “Can you balance on one foot?” “How many ways can you balance on a line? On two body parts? Three body parts?” </specific>
+        </specifics>
+      </overall>
+      <overall id="D">
+        <overall_text>develop control of small muscles (fine-motor control) in a variety of contexts</overall_text>
+        <specifics>
+          <specific>14. begin to demonstrate control of small muscles in activities at a variety of learning centres (e.g., sand, water, visual arts centres) and when using a variety of materials or equipment (e.g., using small building blocks, using play dough, using salt trays, stringing beads, painting with paintbrushes, drawing, cutting paper, using a keyboard, using a mouse, writing with a crayon or pencil) [D] </specific>
+          <specific>15. demonstrate spatial awareness by doing activities that require the use of small muscles (e.g., using board puzzles, blocks, pegboards, finger puppets; folding; pouring; sorting three-dimensional figures) [D] 
+</specific>
+          <specific>16. use a functional grip in written communication to produce writing that they and others can read (e.g., initially: use paintbrushes, markers, crayons that are short and thick; eventually: use pencils and unlined paper, produce letters in a range of sizes, produce a combination of upper- and lower-case letters that may include some letter reversals) [D] </specific>
+        </specifics>
+      </overall>
+    </overalls>
+  </strand>
+</curriculum>

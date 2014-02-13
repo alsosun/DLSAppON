@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<curriculum>
+<pdf>http://www.edu.gov.on.ca/eng/curriculum/elementary/kindercurrb.pdf</pdf>
+  <strand id="Exploration">
+    <strand_text>Exploration</strand_text>
+    <overalls>
+      <overall id="A">
+        <overall_text>demonstrate an awareness of the natural and human-made environment through hands-on investigations, observation, questioning, and sharing of their findings</overall_text>
+        <specifics>
+          <specific>1. describe some natural occurrences, using their own observations and representations (e.g., drawings, writing) [A]* 
+Student Talk: “The snow is melting.” “The leaves are turning red.” “The rain made the worms come out.” 
+Sample Contexts: guided discussions, conversations with peers, learning centres </specific>
+          <specific>2. sort and classify groups of living and non-living things in their own way (e.g., using sorting tools such as hula hoops, sorting circles, paper plates, T-charts, Venn diagrams) [A] 
+Teacher Prompts: “How will we sort these things? What is the same? What is different?” “Show (tell) me how you sorted them.” “What is the name for all the things in this group?” “I wonder how else you could sort these.” </specific>
+          <specific>3. describe and/or represent, using their own observations, patterns and cycles in the natural world (e.g., respond to the teacher’s questions; use concrete materials to show the life cycle of a frog) [A] 
+Teacher Prompts: “What patterns do you see in the leaves we collected?” “How can you use pictures and words to keep track of how your bean plant is growing?” </specific>
+          <specific>4. pose questions and make predictions and observations before and during investigations (e.g., initially: explore freely; eventually: pose questions and discuss their observations with teacher guidance) [B]
+Teacher Prompts: “What would happen if we added snow to water?” “Let’s mark how far your car travelled past the ramp this time. What could you change to make the car go farther?” </specific>
+        </specifics>
+      </overall>
+      <overall id="B">
+        <overall_text>conduct simple investigations through free exploration, focused exploration, and guided activity, using inquiry skills (observing, questioning, planning an investigation, carrying out the investigation, and communicating findings)</overall_text>
+        <specifics>
+          <specific>5. select and use materials to carry out their own explorations (e.g., initially: select specific materials to build something; eventually: propose changes to the plan when prompted by the teacher), and communicate their intentions [B] 
+Student Talk: “We need to put moreblocks on the bottom so our towerwon’t fall over this time.”</specific>
+          <specific>6. communicate results and findings from individual and group investigations (e.g., explain and/or show how they made their structure; draw conclusions from an experiment; record ideas using pictures, numbers, labels) [B] 
+Student Talk: “The boat stays up. Let’s put some shells in the boat. Will it go down now? When we put all the shells in the boat, it sinks.” </specific>
+          <specific>7. investigate, in various ways, how different forces make things move (e.g., observe the effect that wind has on different objects, try out different ways to make a boat move in water, try to make a waterwheel move with water, explore ways in which different toys move) [B] </specific>
+        </specifics>
+      </overall>
+      <overall id="C">
+        <overall_text>demonstrate an understanding of and care for the natural world</overall_text>
+        <specifics>
+          <specific>8. demonstrate an awareness of local natural habitats through exploration and observation (e.g., communicate their findings about how a particular environment is used and what lives there, compare similarities and differences between such environments as the school yard and a park, talk about what would happen if something in the environment changed) [C] 
+Teacher Prompts: “What might we notice if we went back to the woods in the winter?” “I wonder what would happen if we planted trees in our school yard.” </specific>
+          <specific>9. participate in environmentally friendly activities in the classroom and the school yard (e.g., put scrap paper in the scrap paper bin, put garbage in the waste receptacle, help maintain trees and plants in the school yard, turn off lights when leaving the classroom) [C] </specific>
+        </specifics>
+      </overall>
+      <overall id="D">
+        <overall_text>investigate and talk about the characteristics and functions of some common materials, and use these materials safely</overall_text>
+        <specifics>
+          <specific>10. investigate various materials that have different properties (e.g., sand can be wet or dry, wood floats but rocks sink, rubber balls bounce better than plastic balls) by manipulating and comparing them safely in individual and small-group explorations, and describe their observations [D] 
+Student Talk: “I can see through the plastic wrap. I can’t see through the tinfoil.” </specific>
+        </specifics>
+      </overall>
+    </overalls>
+  </strand>
+  <strand id="Technology">
+    <strand_text>Technology</strand_text>
+    <overalls>
+      <overall id="E">
+        <overall_text>recognize and use safely some common forms of technology</overall_text>
+        <specifics>
+          <specific>11. demonstrate an awareness of the safe use of all materials and tools used in class (e.g., walk when carrying scissors, wear goggles at the technology centre, clean up spilled water with a sponge or mop) [E] </specific>
+          <specific>12. experiment with simple machines and common objects (e.g., construct gears using gear kits; use funnels, plastic tubing, or egg beaters to explore how water moves at the water centre; use a balance scale with different objects), and describe their investigations [E] 
+Student Talk: Initially “My door works.”Eventually “My door opens like a realdoor.” 
+Teacher Prompts: “How will your imaginary people get in and out ofyour building?” “How can you makeyour gears move at different speeds?”“I wonder what would happen if you put water in a different funnel.”
+</specific>
+          <specific>13. investigate and use familiar technological items (e.g., different wheeled vehicles, a CD player or computer, a hammer and nails, a calculator, a variety of scoops at the sand table), and describe their use in daily life [E] 
+Student Talk: “I need a stapler to makemy book.” “If we use the big scoop, itwon’t take as long to fill this big pail.” 
+Teacher Prompts: “Who do you thinkwould use this tool? What would theyuse it for?” “What else could we usethis item for?”
+</specific>
+          <specific>14. solve problems while designing and constructing things, using a range of tools, materials, and techniques (e.g., build a house for toy people with found materials; build a tower with boxes of different sizes; design and build a bird feeder using recycled materials) [E]
+Teacher Prompts: “Which materials worked best?” “How would you solve the problem differently next time?” “What was challenging for you?” “Can you show us how you solved your problem?"
+</specific>
+          <specific>15. investigate and discuss how familiar objects are designed to meet a human need (e.g., buttons for fastening clothes, shoes for walking, bandages for protecting cuts, wheels for moving things) [E]
+</specific>
+        </specifics>
+      </overall>
+    </overalls>
+  </strand>
+</curriculum>

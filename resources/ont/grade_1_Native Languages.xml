@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<curriculum>
+<pdf>http://www.edu.gov.on.ca/eng/curriculum/elementary/nativelang18curr.pdf</pdf>
+  <strand id="Oral Communication">
+    <strand_text>Oral Communication</strand_text>
+    <overalls>
+      <overall id="1">
+        <overall_text>a)demonstrate basic communication skills; b)talk about familiar topics using simple words; c) use both verbal and non-verbal cues to understand spoken language; d) demonstrate an appreciation and understanding of aspects of the Native culture under study. </overall_text>
+        <specifics>
+          <specific>talk about familiar topics using basic vocabulary (e.g., identify members of the family);</specific>
+          <specific>demonstrate basic communication skills by participating in simple activities (e.g., work with peers to classify objects in the classroom by colour);</specific>
+          <specific>follow simple instructions (e.g., by making a physical response - see Total Physical Response (TPR) in "Explanatory Notes");</specific>
+          <specific>respond appropriately to simple questions (e.g., Who are you? When are you going? Where are you going?);</specific>
+          <specific>listen to simple oral messages using both verbal and non-verbal cues (e.g., tone of voice, facial expression, gestures).</specific>
+        </specifics>
+      </overall>
+    </overalls>
+  </strand>
+  <strand id="Reading">
+    <strand_text>Reading</strand_text>
+    <overalls>
+      <overall id="1">
+        <overall_text>a) demonstrate basic communication skills; b) demonstrate a basic understanding of vocabulary and language structures appropriate for this grade; c) demonstrate a basic understanding of the reading process; d)   demonstrate an appreciation and understanding of aspects of the Native culture under study.</overall_text>
+        <specifics>
+          <specific>demonstrate familiarity with the writing system used in the program (alphabet or syllabics chart);
+</specific>
+          <specific>read simple words, using the alphabet or syllabics chart, pictures, and other visual aids;
+</specific>
+          <specific>participate in structured reading activities appropriate for the grade (e.g., read the alphabet or syllabics chart, match words to pictures);
+</specific>
+          <specific>use pictures and other visual cues to develop reading skills;
+</specific>
+          <specific>recognize words and language structures that have been introduced orally;
+</specific>
+          <specific>read familiar words aloud using pictures.
+</specific>
+        </specifics>
+      </overall>
+    </overalls>
+  </strand>
+  <strand id="Writing">
+    <strand_text>Writing</strand_text>
+    <overalls>
+      <overall id="1">
+        <overall_text>a) demonstrate basic communication skills; b) demonstrate a basic understanding of vocabulary and language structures appropriate for this grade; c) demonstrate a basic understanding of the writing system used in the program; d)  demonstrate an appreciation and understanding of aspects of the Native culture under study.</overall_text>
+        <specifics>
+          <specific>demonstrate a basic understanding of the writing system used in the program (alphabet or syllabics chart);</specific>
+          <specific>write the letters of the alphabet or syllabic characters correctly;
+</specific>
+          <specific>write simple words, using the alphabet or syllabics chart, pictures, and other visual aids;
+</specific>
+          <specific>demonstrate an understanding of words introduced orally by creating vocabulary lists for specific topics (e.g., words associated with the family, special days).</specific>
+        </specifics>
+      </overall>
+    </overalls>
+  </strand>
+</curriculum>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<curriculum>
+<pdf>http://www.edu.gov.on.ca/eng/curriculum/elementary/nativelang18curr.pdf</pdf>
+  <strand id="Oral Communication">
+    <strand_text>Oral Communication</strand_text>
+    <overalls>
+      <overall id="1">
+        <overall_text>a) communicate in simple contexts using basic vocabulary and phrases; b) demonstrate an understanding of spoken language in simple contexts, using both verbal and non-verbal cues; c) demonstrate an understanding of vocabulary and language structures appropriate for this grade; d) demonstrate an appreciation and understanding of aspects of the Native culture under study</overall_text>
+        <specifics>
+          <specific>communicate in simple contexts using basic vocabulary and phrases (e.g., close the door, come here);</specific>
+          <specific>participate in structured oral language activities appropriate for the grade (e.g., provide appropriate phrases for pictures or illustrations);</specific>
+          <specific>respond appropriately to questions using phrases (e.g., I have two books, there are three bears);</specific>
+          <specific>demonstrate an understanding of simple oral messages using both verbal and non-verbal cues.
+</specific>
+        </specifics>
+      </overall>
+    </overalls>
+  </strand>
+  <strand id="Reading">
+    <strand_text>Reading</strand_text>
+    <overalls>
+      <overall id="1">
+        <overall_text>a) communicate in simple contexts using basic vocabulary and phrases; b) demonstrate an understanding of spoken language in simple contexts, using both verbal and non-verbal cues; c) demonstrate an understanding of vocabulary and language structures appropriate for this grade; d) read phrases in the writing system used in the program; e)demonstrate an appreciation and understanding of aspects of the Native culture under study</overall_text>
+        <specifics>
+          <specific>read phrases using the alphabet or syllabics chart, pictures, and other visual aids;
+</specific>
+          <specific>demonstrate an understanding of the phrases they read (e.g., by matching phrases to pictures);</specific>
+          <specific>participate in structured reading activities appropriate for the grade (e.g., identify phrases that describe an action);</specific>
+          <specific>use visual cues (e.g., pictures, illustrations) to determine the meaning of phrases;
+</specific>
+          <specific>recognize phrases that have been introduced orally;</specific>
+          <specific>read a variety of phrases aloud using pictures.
+</specific>
+        </specifics>
+      </overall>
+    </overalls>
+  </strand>
+  <strand id="Writing">
+    <strand_text>Writing</strand_text>
+    <overalls>
+      <overall id="1">
+        <overall_text>a) communicate in simple contexts using basic vocabulary and phrases; b) demonstrate an understanding of spoken language in simple contexts, using both verbal and non-verbal cues; c) demonstrate an understanding of vocabulary and language structures appropriate for this grade; d) read phrases in the writing system used in the program; e) write phrases in the writing system used in the program; f) demonstrate an appreciation and understanding of aspects of the Native culture under study</overall_text>
+        <specifics>
+          <specific>write phrases using the alphabet or syllabics chart;
+</specific>
+          <specific>form phrases using familiar vocabulary;
+</specific>
+          <specific>participate in structured writing activities appropriate for the grade (e.g., write phrases that include new vocabulary);</specific>
+          <specific>spell simple words and phrases correctly, using available resources (e.g., alphabet or syllabics chart, classroom-displayed vocabulary lists, print materials);</specific>
+          <specific>demonstrate an understanding of phrases by creating lists of phrases around a familiar topic or idea (e.g., phrases that indicate possession - this is my book; phrases that describe a person or thing - she/he is big ).</specific>
+        </specifics>
+      </overall>
+    </overalls>
+  </strand>
+</curriculum>

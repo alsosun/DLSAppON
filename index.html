@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Daily Rubric</title>
+	<link rel="shortcut icon" href="favicon.ico">
+	<!--<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.css" />-->
+	<!--<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>-->
+	<!--<script src="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.js"></script>-->     
+	<link rel="stylesheet" type="text/css" href="css/themes/default/jquery.mobile-1.4.0.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/themes/default/my.css" />  
+    <link rel="stylesheet" type="text/css" href="css/themes/default/GreenDLS.min.css" />
+    <script src="js/jquery.js"></script>
+	<script src="js/jquery.mobile-1.4.0.min.js"></script>
+	<script src="js/myjs.js"></script>
+    <script src="js/table2CSV.js"></script>
+    <script type="text/javascript" src="js/FeedEk.js"></script>
+    <script src="phonegap.js"></script>
+    <!--<script src="js/camera.js"></script>-->
+    <!--<script src="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.min.js" ></script>
+    <link rel="stylesheet" type="text/css" href="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/css/jquery.dataTables.css" />-->
+    <!--<script src="media/js/TableTools.js"></script>
+    <script src="media/js/ZeroClipboard.js"></script>
+    <link rel="stylesheet" type="text/css" href="media/css/TableTools.css" />-->
+
+</head>
+<body>
+<div data-role="page" class="jqm-demos ui-responsive-panel" id="loginhome" data-title="Daily Rubric"><!-- login page -->
+    <div data-role="header" data-position="fixed">
+        <h1>Daily Rubric</h1>
+        <a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+        <a href="#add-form" data-icon="info" data-iconpos="notext">Add</a>
+    </div><!-- /header -->
+    <div role="main" class="ui-content jqm-content jqm-fullwidth">
+        <div class="container" style="padding: 0px; text-align:center">
+			<div><img src="assests/images/logodls.png" /></div>
+        <div style="padding:10px 10px;" >
+            <button id="guestBtn" data-theme="b" data-icon="check" data-transition="slide" data-inline="true" >Tips for Getting Started</button>          
+        </div>  
+            <!--<div id="saveemail">
+                <h2>Export Settings:</h2>
+                <h2 id="currentemail">No email address registered</h2>
+                <a href="#emailpop" data-rel="popup" id="emailchBtn" data-role="button" data-theme="b" data-icon="mail" data-inline="true">change email</a>
+            </div>-->         
+            <!--<div>
+                
+                <form id="login">
+                    <div style="padding:10px 10px; ">
+                        <h3>DLS user can sign in</h3>
+                        <label for="un" class="ui-hidden-accessible">Username:</label>
+                        <input type="text" name="user" id="un" value="" placeholder="username" data-theme="a">
+                        <label for="pw" class="ui-hidden-accessible">Password:</label>
+                        <input type="password" name="pass" id="pw" value="" placeholder="password" data-theme="a">
+                        <button type="submit" data-theme="b" data-icon="check" >Sign in</button>
+                    </div>
+                </form>
+            </div>-->		
+        </div>
+                      
+	</div><!-- /content -->
+    <div data-role="footer" data-position="fixed">
+		<h6 class="footer-text">DLS Copyright 2013. All rights reserved</h6>
+	</div><!-- /footer -->
+
+	<div data-role="panel" data-display="overlay" data-theme="b" id="nav-panel">                
+		        <ul data-role="listview" data-inset="false" data-theme="b">
+                <li><div style="text-align: center;"><h5 id="user"><img src="assests/images/logo.png" /></h5></div></li>
+                <li data-icon="delete"><a href="#" data-rel="close">Close menu</a></li>
+                <li><a href="#home" data-transition="slide"><img src="css\themes\default\images\icons-png\home-white.png" alt="home" class="ui-li-icon"/>Home</a></li>                    
+                <li><a href="#rubrics" data-transition="slide" id="rubricpagelink"><img src="css\themes\default\images\icons-png\bullets-white.png" alt="home" class="ui-li-icon"/>Make Rubrics</a></li>
+                <li><a href="#assess" data-transition="slide"><img src="css\themes\default\images\icons-png\edit-white.png" alt="home" class="ui-li-icon"/>Assessments</a></li>
+                <li><a href="#classes" data-transition="slide"><img src="css\themes\default\images\icons-png\user-white.png" alt="home" class="ui-li-icon"/>Manage Classes</a></li>
+                
+                <li><a href="#home" data-transition="slide"><img src="css\themes\default\images\icons-png\video-white.png" alt="home" class="ui-li-icon"/>Tutorial</a></li>
+                <li><a href="#planner" data-transition="slide"><img src="css\themes\default\images\icons-png\star-white.png" alt="home" class="ui-li-icon"/>Unit Planner</a></li>
+                <li><a href="#news" data-transition="slide"><img src="css\themes\default\images\icons-png\info-white.png" alt="home" class="ui-li-icon"/>News</a></li>
+                
+		</ul>
+	</div><!-- /panel -->
+	<div data-role="panel" data-position="right" data-display="reveal" data-theme="a" id="add-form">
+        <div id="rightpanel">
+        	<h2>Description</h2>
+            <p>Daily Rubric allows educators to quickly and consistently collect and share assessment data that is directly connected to curriculum outcomes. Daily Rubric can be used as a companion to DLS Unit and Rubric Builder.</p> 
+            
+            <p>To learn more about Unit and Planner, <a href="#" class="extlk">visit us online.</a></p>           
+        </div>
+	</div><!-- /panel -->
+    
+</div><!-- /log in page -->
+<div data-role="page" class="jqm-demos ui-responsive-panel" id="rubrics" data-title="Rubrics"><!-- rubrics page -->
+    <div data-role="header">
+        <h2>Rubrics</h2>
+        <a href="#nav-rubric" data-icon="bars" data-iconpos="notext">Menu</a>
+        <a href="#right-rubric" data-icon="info" data-iconpos="notext">Add</a>
+        <div data-role="navbar" >
+            <ul>
+                <li><a href="#" id="newrubriclink" data-icon="plus">New Rubric</a></li>
+                <li><a href="#" id="editrubriclink" data-icon="edit">Edit Rubric</a></li>
+                <li><a href="#" id="delrubriclink" data-icon="delete">Delete Rubric</a></li>
+            </ul>
+        </div><!-- /navbar -->
+    </div><!-- /header -->
+
+    <div role="main" class="ui-content jqm-content" style="text-align:center">
+        
+            <div id="start"><h3>Use the menu below to create, edit or delete rubrics</h3></div>        
+            <div id="newrubric" hidden="hidden">
+                <div id="namerubric">
+                    <h2>Create New Rubric</h2>
+                    <p>Give your new rubric a name, and then click 'create'.</p>
+                       <div>
+                        <div>
+                            <form id="new-rubric-form"><input type="text" data-clear-btn="true" name="new-rubric-name" id="new-rubric-name" data-inline="true" value="" placeholder="Name of new rubric (Max 15 characters)"/></form>
+                         </div>
+                        <a href="#" id="newrubricBtn" data-role="button" data-icon="plus" data-theme="c" data-inline="true">create</a>
+                       </div> <!-- /name rubric-->
+                </div>
+            </div><!-- /new rubric -->
+                          
+            <div id="buildrubric" hidden="hidden">
+                <h2 id="rubriclabel"></h2>
+                <div id="editrubric" hidden="hidden">
+                    <select id="rubric-select" data-icon="bullets" data-iconpos="left">
+                            <option>select rubric</option>
+                    </select>                 
+                   </div><!-- /edit --> 
+                   <div id="delrubric" hidden="hidden">
+                    <h2>Edit or Delete a rubric</h2>
+                    <p>Select a rubric above and click "open" to edit or "delete" to remove</p>
+                    <a href="#" id="editrubricBtn" data-role="button" data-icon="plus" data-theme="c" data-inline="true">open</a>
+                    <a href="#" id="delrubricBtn" data-role="button" data-icon="delete" data-theme="c" data-inline="true">delete</a>
+                 </div>   <!-- /del --> 
+                    <div id="grade_con" style="text-align:center">
+                        <h2>Add Overall Expectation</h2>                        
+                        <div id="grades">  
+                            <label for="gradedd">Select Grade</label>                       
+                            <select name="gradedd" id="gradedd" data-inline="true">
+                                <option value="#">Grade</option>
+                                <option value="k">K</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>        
+                            </select>
+                            
+                            <div id="subjects"hidden="hidden">
+                                <label for="areasel">Select Subject</label>
+                            <select id="areasel"  data-inline="true">
+                                
+                            </select>
+                            </div>
+                         
+                          <div id="strand" hidden="hidden">
+                              <label for="subdd">Select Strand</label>
+                            <select name="subdd" id="subdd" data-inline="true">
+                                       
+                            </select>
+
+                          </div>
+                            </div><!--//grade and subject select-->
+                        <div>
+                            <a href="#" id="genericBtn" data-role="button" data-icon="plus" data-theme="c" data-inline="true">or add custom outcomes</a>
+                        </div>
+                      </div><!--grade con-->  
+                    <div id="generic" hidden="hidden">                       
+                        
+                            <div data-role="collapsible" id="icancon">  
+                              <h5>'I can' statements ...</h5>                      
+                                <ul data-role="listview"  id="icans">                                                        
+                                <li><a href="#">I can demonstrate</a></li>
+                                <li><a href="#">I can explain</a></li>
+                                <li><a href="#">I can use</a></li>
+                                <li><a href="#">I can create</a></li>
+                                <li><a href="#">I can analyze</a></li>
+                                <li><a href="#">I can reflect</a></li>
+                                <li><a href="#">I can determine</a></li>
+                                <li><a href="#">I can organize</a></li>
+                                <li><a href="#">I can read and respond</a></li>                           
+                                <li><a href="#">I can identify</a></li>
+                            </ul>
+                        
+                           </div>
+                           <div>
+                        <form>
+                            <label for="textarea-1">Outcome</label>
+                            <textarea name="outcome" id="outcome" placeholder="Type here or click a 'I Can' statment starter from above to write your outcome."></textarea>
+                        </form>
+                           </div>
+                       
+                        <div>
+                            <a href="#" id="addcustoutBtn" data-role="button" data-icon="plus" data-theme="c" data-inline="true">Add to rubric</a>
+                        </div>
+                        
+                    </div><!--//generic-->
+                    <div id="outtable" style="text-align:left" hidden="hidden"></div>
+                    <div id="addout" hidden="hidden">                       
+                        <a href="#" id="addoutBtn" data-role="button" data-icon="plus" data-theme="c" data-inline="true">Add to rubric</a>
+                    </div>
+                    <div id="rubric"></div>
+                    <div id="next" hidden="hidden">
+                        <p>Click on any box in the rubric to edit its contents.</p>
+                        <a href="#" id="addmoreBtn" data-role="button" data-icon="plus" data-theme="c" data-inline="true">More outcomes</a>
+                        <a href="#" id="clearBtn" data-role="button" data-icon="refresh" data-theme="c" data-inline="true">Start Over</a>
+                        <a href="#" id="saveBtn" data-role="button" data-icon="check" data-theme="c" data-inline="true">Done</a>
+                        <a href="#" id="openexport" data-role="button" data-icon="mail" data-theme="c" data-inline="true">Export</a>
+                    </div>
+                <div id="exportcon" hidden="hidden">
+                    <form action="http://www.digitallearnersolutions.com/dailyrubric/export.php" method="post" id="rubricform" target="_system">
+                        <img src="css/themes/default/images/ajax-loader.gif" id="loader" hidden="hidden" />     
+                        <label for="email">enter your email</label>
+                             <input type="text" name="email" id="email"/>
+                             <div hidden="hidden"><textarea name="rubricname" id="rubricname" ></textarea></div>
+                             <div hidden="hidden"><textarea name="hiddenrubric" id="hiddenrubric" ></textarea></div>
+                             <div><button id="exportBtn" data-icon="mail">send</button></div>
+                    </form>
+                </div>
+                </div><!--rubric build-->
+
+        
+    </div><!-- /content -->
+    <div data-role="footer" data-position="fixed" >
+		<a href="#" data-transition="slide" data-rel="back" data-role="button" data-inline="true" class="ui-btn ui-shadow ui-corner-all ui-mini ui-btn-inline ui-icon-carat-l ui-btn-icon-left ui-alt-icon ui-nodisc-icon">Back</a>
+	</div><!-- /footer -->
+            <div data-role="popup" id="errorpop" data-overlay-theme="b" data-theme="b" data-dismissible="false" style="max-width:400px;" class="ui-corner-all">
+                <div data-role="header" data-theme="a" class="ui-corner-top">  
+                <h1>Message</h1>
+                </div>
+                <div data-role="content" data-theme="d" class="ui-corner-bottom ui-content" style="text-align:center">
+                <div id="popmessage"></div>       
+                <a href="#" id="A2" data-role="button" data-inline="true" data-rel="back" data-theme="c">OK</a>
+                </div> 
+            </div>	<!-- error pop --> 
+            <div data-role="popup" id="dialog" data-overlay-theme="b" data-theme="b" data-dismissible="false" style="max-width:400px;" class="ui-corner-all">
+               <div data-role="header" data-theme="a" class="ui-corner-top">   
+                <h1>Message</h1>
+                </div>
+                <div data-role="content" data-theme="d" class="ui-corner-bottom ui-content" style="text-align:center">
+                <div id="yesno"></div>        
+                <a href="#" id="dialogyes" data-role="button" data-inline="true" data-rel="back" data-theme="c">Yes</a>
+                <a href="#" id="dialogno" data-role="button" data-inline="true" data-rel="back" data-theme="c">no</a>
+                </div>
+           </div><!-- error pop -->
+           <div data-role="popup" id="editpop" data-overlay-theme="b" data-theme="b" data-dismissible="false" style="max-width:400px;" class="ui-corner-all">
+                <div data-role="header" data-theme="a" class="ui-corner-top">  
+                <h1>Edit Text</h1>
+                </div>
+                <div data-role="content" data-theme="d" class="ui-corner-bottom ui-content" style="text-align:center">
+                <textarea id="edittxt" cols="30" rows="12" data-mini="true"></textarea>       
+                <a href="#" id="editcloseBtn" data-role="button" data-inline="true" data-rel="back" data-theme="c">OK</a>
+                </div> 
+            </div>	<!-- error pop --> 
+    	<div data-role="panel" data-display="overlay" data-theme="b" id="nav-rubric">                
+		        <ul data-role="listview" data-inset="false" data-theme="b">
+                <li><div style="text-align: center;"><h5 id="user1"><img src="assests/images/logo.png" /></h5></div></li>
+                <li data-icon="delete"><a href="#" data-rel="close">Close menu</a></li>
+                <li><a href="#home" data-transition="slide"><img src="css\themes\default\images\icons-png\home-white.png" alt="home" class="ui-li-icon"/>Home</a></li>                    
+                <li><a href="#rubrics" data-transition="slide" id="A1"><img src="css\themes\default\images\icons-png\bullets-white.png" alt="home" class="ui-li-icon"/>Make Rubrics</a></li>
+                <li><a href="#assess" data-transition="slide"><img src="css\themes\default\images\icons-png\edit-white.png" alt="home" class="ui-li-icon"/>Assessments</a></li>
+                <li><a href="#classes" data-transition="slide"><img src="css\themes\default\images\icons-png\user-white.png" alt="home" class="ui-li-icon"/>Manage Classes</a></li>
+                
+                <li><a href="#home" data-transition="slide"><img src="css\themes\default\images\icons-png\video-white.png" alt="home" class="ui-li-icon"/>Tutorial</a></li>
+                <li><a href="#planner" data-transition="slide"><img src="css\themes\default\images\icons-png\star-white.png" alt="home" class="ui-li-icon"/>Unit Planner</a></li>
+                <li><a href="#news" data-transition="slide"><img src="css\themes\default\images\icons-png\info-white.png" alt="home" class="ui-li-icon"/>News</a></li>
+                
+                
+		</ul>
+	</div><!-- /panel -->
+	<div data-role="panel" data-position="right" data-display="reveal" data-theme="a" id="right-rubric">
+        <div id="Div3">
+        	<h2>Rubric</h2>
+            <p>Build your rubrics here, and then use them for daily assessment.</p> 
+            <p>Rubrics can also be edited and deleted. Comming soon--Unit and Rubric planner users will be able manage rubrics on PC or mobile device.</p>
+            <p>To learn more about Unit and Planner, <a href="#" class="extlk">visit us online.</a></p>           
+        </div>
+	</div><!-- /panel --> 
+</div><!-- /rubric page -->
+<div data-role="page" class="jqm-demos ui-responsive-panel" id="classes" data-title="Classes"> <!-- classes page -->
+    <div data-role="header" data-position="fixed">
+        <h1>Manage Classes</h1>
+        <a href="#nav-classes" data-icon="bars" data-iconpos="notext">Menu</a>
+        <a href="#right-classes" data-icon="info" data-iconpos="notext">Add</a>
+        <div data-role="navbar" >
+            <ul>
+                <li><a href="#" id="addclasslink" data-icon="plus">New Class</a></li>
+                <li><a href="#" id="delclasslink" data-icon="delete">Delete Class</a></li>
+                <li><a href="#" id="addstlink" data-icon="user">Add Student</a></li>
+                <li><a href="#" id="delstlink" data-icon="delete" >Delete Student</a></li>
+            </ul>
+        </div><!-- /navbar -->
+    </div><!-- /header -->
+    <div role="main" class="ui-content jqm-content jqm-fullwidth">
+        <div class="container" style="padding: 0px; text-align:center">
+	            
+                <div id="currentclasses" style="text-align:center">
+                    <h2>Current Classes</h2>
+                    <form>
+                    <fieldset data-role="controlgroup" data-type="horizontal">
+                        <legend></legend>
+                        <p>Classes  |  Students</p>                        
+                        <select name="select-native-11" id="classes-select">
+                            <option value="#">Class</option>
+                        </select>                       
+                        <select name="select-native-12" id="students-select">
+                            <option value="#">Student</option>                           
+                        </select>                       
+                    </fieldset>
+                    </form>
+                </div><!-- classes DD -->
+               
+            
+            <div id="addclass" style="text-align:center" hidden="hidden">             	              
+              <div><div style="text-align:center"><h2>Add Classes</h2></div>
+                  <div>
+                    <form><input type="text" data-clear-btn="true" name="new-class-name" id="new-class-name" data-inline="true" value="" placeholder="Name of new class (Max 15 characters)"/></form>
+                </div>
+                <div>
+                    <a href="#" id="addclassBtn" data-role="button" data-icon="plus" data-theme="c" data-inline="true">Add a class</a>
+                </div>
+                </div>
+            </div>
+            <div id="delclass" style="text-align:center" hidden="hidden">             	
+                <div>
+                    <div style="text-align:center"><h2>Delete Classes</h2></div>
+                    <div>
+                    <p>Select a class above, then click 'Delete class'. <br />This will also delete all the students in the class. <br />This does not, however, delete any class reports.</p>
+                    </div>               
+                <div>
+                    <a href="#" id="delclassBtn" data-role="button" data-icon="delete" data-theme="c" data-inline="true">delete class</a>
+                </div>
+                </div>
+            </div>
+            
+            <div id="addst" style="text-align:center" hidden="hidden">
+                <h2>Add Students</h2>
+                <p>Select a class above, then enter student's name and click "add student"</p>
+                <div>
+                <div>
+                    <form><input type="text" data-clear-btn="true" name="new-st-name" id="new-st-name" data-inline="true" value="" placeholder="Name of student (Max 15 characters)"/></form>
+                </div>
+                <a href="#" id="addstBtn" data-role="button" data-icon="plus" data-theme="c" data-inline="true">Add a Student</a>
+                </div>
+			</div>
+           <div id="delst" style="text-align:center" hidden="hidden">
+                <h2>Delete Students</h2>
+               <p>Select a class and student above, and click "delete student". <br />This does not, however, delete any student reports.</p>
+                <div>               
+                <a href="#" id="delstBtn" data-role="button" data-icon="delete" data-theme="c" data-inline="true">Delete Selected student</a>
+                </div>
+			</div>
+        </div>                   
+	</div><!-- /content -->
+    <div data-role="footer" data-position="fixed" >
+		<a href="#" data-transition="slide" data-rel="back" data-role="button" data-inline="true" class="ui-btn ui-shadow ui-corner-all ui-mini ui-btn-inline ui-icon-carat-l ui-btn-icon-left ui-alt-icon ui-nodisc-icon">Back</a>
+	</div><!-- /footer -->
+    <div data-role="popup" id="errorpopcl" data-overlay-theme="b" data-theme="b" data-dismissible="false" style="max-width:400px;" class="ui-corner-all">
+                <div data-role="header" data-theme="a" class="ui-corner-top">
+    
+                <h1>Message</h1>
+                </div>
+                <div data-role="content" data-theme="b" class="ui-corner-bottom ui-content" style="text-align:center">
+                <div id="popmessagecl"></div>
+        
+                <a href="#" id="A5" data-role="button" data-inline="true" data-rel="back" data-theme="c">OK</a>
+                </div> 
+            </div>	<!-- error pop -->
+           <div data-role="popup" id="dialogcl" data-overlay-theme="b" data-theme="b" data-dismissible="false" style="max-width:400px;" class="ui-corner-all">
+               <div data-role="header" data-theme="b" class="ui-corner-top">
+    
+                <h1>Message</h1>
+                </div>
+                <div data-role="content" data-theme="b" class="ui-corner-bottom ui-content" style="text-align:center">
+                <div id="yesnocl"></div>
+        
+                <a href="#" id="dialogyescl" data-role="button" data-inline="true" data-rel="back" data-theme="c">Yes</a>
+                <a href="#" id="dialognocl" data-role="button" data-inline="true" data-rel="back" data-theme="c">no</a>
+                </div>
+           </div>
+            <div data-role="popup" id="dialog1" data-overlay-theme="b" data-theme="b" data-dismissible="false" style="max-width:400px;" class="ui-corner-all">
+               <div data-role="header" data-theme="a" class="ui-corner-top">   
+                <h1>Message</h1>
+                </div>
+                <div data-role="content" data-theme="b" class="ui-corner-bottom ui-content" style="text-align:center">
+                <div id="yesno1"></div>        
+                <a href="#" id="dialogyes1" data-role="button" data-inline="true" data-rel="back" data-theme="c">Yes</a>
+                <a href="#" id="dialogno1" data-role="button" data-inline="true" data-rel="back" data-theme="c">no</a>
+                </div>
+           </div><!-- pop ups-->
+	<div data-role="panel" data-display="overlay" data-theme="b" id="nav-classes">                
+		        <ul data-role="listview" data-inset="false" data-theme="b">
+                <li><div style="text-align: center;"><h5 id="user2"><img src="assests/images/logo.png" /></h5></div></li>
+                <li data-icon="delete"><a href="#" data-rel="close">Close menu</a></li>
+                <li><a href="#home" data-transition="slide"><img src="css\themes\default\images\icons-png\home-white.png" alt="home" class="ui-li-icon"/>Home</a></li>                    
+                <li><a href="#rubrics" data-transition="slide" id="A3"><img src="css\themes\default\images\icons-png\bullets-white.png" alt="home" class="ui-li-icon"/>Make Rubrics</a></li>
+                <li><a href="#assess" data-transition="slide"><img src="css\themes\default\images\icons-png\edit-white.png" alt="home" class="ui-li-icon"/>Assessments</a></li>
+                <li><a href="#classes" data-transition="slide"><img src="css\themes\default\images\icons-png\user-white.png" alt="home" class="ui-li-icon"/>Manage Classes</a></li>
+                
+                <li><a href="#home" data-transition="slide"><img src="css\themes\default\images\icons-png\video-white.png" alt="home" class="ui-li-icon"/>Tutorial</a></li>
+                <li><a href="#planner" data-transition="slide"><img src="css\themes\default\images\icons-png\star-white.png" alt="home" class="ui-li-icon"/>Unit Planner</a></li>
+                <li><a href="#news" data-transition="slide"><img src="css\themes\default\images\icons-png\info-white.png" alt="home" class="ui-li-icon"/>News</a></li>
+                
+		</ul>
+	</div><!-- /panel -->
+	<div data-role="panel" data-position="right" data-display="reveal" data-theme="a" id="right-classes">
+        <div id="Div5">
+        	<h2>Classes</h2>
+            <p>Set up your classes first. Then, add students to each class. </p> 
+            <p>Classes are required to use assessment rubrics and to create reports.</p>
+            <p>To learn more about Unit and Planner, <a href="#" class="extlk">visit us online.</a></p>           
+        </div>
+	</div><!-- /panel -->
+</div><!-- /classes page -->
+<div data-role="page" class="jqm-demos ui-responsive-panel" id="assess" data-title="Assessment"><!-- assess page -->
+    <div data-role="header" data-position="fixed">
+        <h1>Assessment</h1>
+        <a href="#nav-assess" data-icon="bars" data-iconpos="notext">Menu</a>
+        <a href="#right-assess" data-icon="info" data-iconpos="notext">Add</a>
+        <div data-role="navbar" >
+            <ul>
+                <li><a href="#" id="loadassesslink" data-icon="grid">Open</a></li>
+                <li><a href="#" id="newassesslink" data-icon="plus">New</a></li>
+                <li><a href="#" id="delassesslink" data-icon="delete">Delete</a></li>
+            </ul>
+        </div><!-- /navbar -->
+    </div><!-- /header -->
+    <div role="main" class="ui-content jqm-content jqm-fullwidth">
+        <div class="container" style="padding: 0px; text-align:center">
+	        
+            <div>
+                <h2 id="reportlabel"></h2>
+	        </div>
+            <div id="reportstart">               
+                <p>Use the Assessment menu to create new assessments and reports, or to load assessments still in progress.</p>
+            </div>
+            <div id="newassess" hidden="hidden">
+                <h2>New Assessment</h2>
+                <p>Select a Class and a Rubric, and then use sliders to add assessment data for each student.</p>
+                    <form>
+                        <div data-role="fieldcontain">
+                            <label for="select-native-11">Classes</label>
+                            <select name="select-native-11" id="assess-cl-select" data-iconpos="left" data-icon="edit">
+                            <option value="#">Class</option>
+                            </select> 
+                            <label for="select-native-12">Rubrics</label>                      
+                            <select name="select-native-12" id="assess-rub-select" data-iconpos="left" data-icon="bullets">
+                            <option value="#">Rubric</option>                           
+                            </select>
+                        </div>
+                    <!--<fieldset data-role="controlgroup" data-type="horizontal">
+                        <legend></legend>                        
+                        <select name="select-native-11" id="assess-cl-select">
+                            <option value="#">Class</option>
+                        </select>                       
+                        <select name="select-native-12" id="assess-rub-select">
+                            <option value="#">Rubric</option>                           
+                        </select>                       
+                    </fieldset>-->
+                    </form>
+                <a href="#" id="newassessBtn" data-role="button" data-inline="true" data-theme="b">Start Assessment</a>
+            </div>
+            <div id="loadassess" hidden="hidden">
+                <h2>Load or Delete Assessment</h2>
+                <p>Select an assessment to continue entering data or to delete it.</p>
+                <select id="assess-report-select" data-iconpos="left" data-icon="star">
+                    <option value="#">Assessment</option>
+                </select>
+                <a href="#" id="loadassessBtn" data-role="button" data-inline="true" data-icon="plus" data-theme="c">Load</a>
+                <a href="#" id="delassessBtn" data-role="button" data-inline="true" data-icon="delete" data-theme="c">Delete</a>
+            </div>
+            <div id="assessmentinput" hidden="hidden">
+                <select id="assess-st-select" data-iconpos="left" data-icon="user"><option value="#"></option></select>
+                <div id="temp" hidden="hidden"></div>
+                <div id="sliders"></div>
+            </div>
+            <div id="report-con" hidden="hidden">
+                <!--<a href="#" id="openpicpop" data-role="button" data-inline="true" data-icon="camera" data-theme="c">Image</a>-->
+                <a href="#" id="opennotepop" data-role="button" data-inline="true" data-icon="edit" data-theme="c">Notes</a>
+                <a href="#" id="adddataBtn" data-role="button"  data-icon="plus" data-inline="true" data-theme="c">Add result</a>
+                <h2 id="reporttop"></h2>
+                <div id="report">
+
+                </div>
+                <div>
+                    <a href="#" id="donedataBtn" data-role="button" data-inline="true" data-icon="check" data-theme="c">done</a>
+                    <a href="#" id="exportdataBtn" data-role="button" data-inline="true" data-icon="mail" data-theme="c">export / send</a>
+                </div>
+                <div id="reportexcon" hidden="hidden">
+                    <form action="http://www.digitallearnersolutions.com/dailyrubric/export.php" method="post" id="reportform" target="_system">
+                        <img src="css/themes/default/images/ajax-loader.gif" id="loader2" hidden="hidden" />
+                        <label for="email">enter your email</label>
+                        <input type="text" name="email" id="email1" />
+                        <div hidden="hidden">
+                            <textarea name="rubricname" id="reportname"></textarea>
+                        </div>
+                        <div hidden="hidden">
+                            <textarea name="hiddenrubric" id="reporttable"></textarea></div>
+                        <div hidden="hidden">
+                            <textarea name="hiddennotes" id="hiddennotes"></textarea></div>
+                        <div>
+                            <button id="exportreportBtn" data-icon="mail">send</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+                     
+	</div><!-- /content -->
+    <div data-role="footer" data-position="fixed" >
+		<a href="#" data-transition="slide" data-rel="back" data-role="button" data-inline="true" class="ui-btn ui-shadow ui-corner-all ui-mini ui-btn-inline ui-icon-carat-l ui-btn-icon-left ui-alt-icon ui-nodisc-icon">Back</a>
+	</div><!-- /footer -->
+    <div data-role="popup" id="assesspopup" data-overlay-theme="b" data-theme="b" data-dismissible="false" style="max-width:400px;" class="ui-corner-all">
+                <div data-role="header" data-theme="a" class="ui-corner-top">
+    
+                <h1>Message</h1>
+                </div>
+                <div data-role="content" data-theme="b" class="ui-corner-bottom ui-content" style="text-align:center">
+                <div id="assesspopmessage"></div>
+        
+                <a href="#" id="A7" data-role="button" data-inline="true" data-rel="back" data-theme="c">OK</a>
+                </div> 
+            </div>	<!-- error pop -->
+    <div data-role="popup" id="dialogas" data-overlay-theme="b" data-theme="b" data-dismissible="false" style="max-width:400px;" class="ui-corner-all">
+               <div data-role="header" data-theme="b" class="ui-corner-top">    
+                <h1>Message</h1>
+                </div>
+                <div data-role="content" data-theme="b" class="ui-corner-bottom ui-content" style="text-align:center">
+                <div id="yesnoas"></div>        
+                <a href="#" id="dialogyesas" data-role="button" data-inline="true" data-rel="back" data-theme="c">Yes</a>
+                <a href="#" id="dialognoas" data-role="button" data-inline="true" data-rel="back" data-theme="c">no</a>
+                </div>
+           </div>
+	<div data-role="panel" data-display="overlay" data-theme="b" id="nav-assess">                
+		        <ul data-role="listview" data-inset="false" data-theme="b">
+                <li><div style="text-align: center;"><h5 id="user3"><img src="assests/images/logo.png" /></h5></div></li>
+                <li data-icon="delete"><a href="#" data-rel="close">Close menu</a></li>
+                <li><a href="#home" data-transition="slide"><img src="css\themes\default\images\icons-png\home-white.png" alt="home" class="ui-li-icon"/>Home</a></li>                    
+                <li><a href="#rubrics" data-transition="slide" id="A4"><img src="css\themes\default\images\icons-png\bullets-white.png" alt="home" class="ui-li-icon"/>Make Rubrics</a></li>
+                <li><a href="#assess" data-transition="slide"><img src="css\themes\default\images\icons-png\edit-white.png" alt="home" class="ui-li-icon"/>Assessments</a></li>
+                <li><a href="#classes" data-transition="slide"><img src="css\themes\default\images\icons-png\user-white.png" alt="home" class="ui-li-icon"/>Manage Classes</a></li>               
+                <li><a href="#home" data-transition="slide"><img src="css\themes\default\images\icons-png\video-white.png" alt="home" class="ui-li-icon"/>Tutorial</a></li>
+                <li><a href="#planner" data-transition="slide"><img src="css\themes\default\images\icons-png\star-white.png" alt="home" class="ui-li-icon"/>Unit Planner</a></li>
+                <li><a href="#news" data-transition="slide"><img src="css\themes\default\images\icons-png\info-white.png" alt="home" class="ui-li-icon"/>News</a></li>
+                
+                
+		</ul>
+	</div><!-- /panel -->
+	<div data-role="panel" data-position="right" data-display="reveal" data-theme="a" id="right-assess">
+        <div id="Div6">
+        	<h2>Assessment</h2>
+            <p>Select a Rubric and the class.</p> 
+            <p>Enter Assessment data for each student. Save unfinished assessments. Export assessment when finished.</p>
+            <p>To learn more about Unit and Planner, <a href="#" class="extlk">visit us online.</a></p>           
+        </div>
+	</div><!-- /panel -->
+</div><!-- /assess page -->
+<div data-role="page" class="jqm-demos ui-responsive-panel" id="home" data-title="Get Started"><!-- home page -->
+    <div data-role="header" data-position="fixed">
+        <h1>Home</h1>
+        <a href="#nav-home" data-icon="bars" data-iconpos="notext">Menu</a>
+        <a href="#right-home" data-icon="info" data-iconpos="notext">Add</a>
+    </div><!-- /header -->
+    <div role="main" class="ui-content jqm-content jqm-fullwidth">
+        <div class="container" style="padding: 0px; text-align:left">
+            <a href="#popupVideo-2" data-role="button" data-rel="popup" data-inline="true" data-icon="video">Tutorial</a>
+	         <h1>Getting started:</h1>          
+            <h2>1. Set up your classes</h2>
+            <h2>2. Add students to classes</h2>
+            <h2>3. Build Rubrics</h2>
+            <h2>4. Use Rubrics for assessment</h2>
+            <h2>5. Export Reports</h2>
+            <h2>NOTE: use the <a href="#" data-role="button" data-icon="bars" data-inline="true"></a> on the top right to access the main menu.</h2>
+        </div>
+        <div data-role="popup" id="popupVideo-2" data-overlay-theme="b" data-theme="b" data-tolerance="15,15" class="ui-content video-popup">
+					<iframe width="266" height="200" src="http://www.youtube.com/embed/IUtff1owJZA?rel=0"></iframe>
+		</div>
+                     
+	</div><!-- /content -->
+    <div data-role="footer" data-position="fixed" >
+		<a href="#" data-transition="slide" data-rel="back" data-role="button" data-inline="true" class="ui-btn ui-shadow ui-corner-all ui-mini ui-btn-inline ui-icon-carat-l ui-btn-icon-left ui-alt-icon ui-nodisc-icon">Back</a>
+	</div><!-- /footer -->
+                
+	<div data-role="panel" data-display="overlay" data-theme="b" id="nav-home">                
+		        <ul data-role="listview" data-inset="false" data-theme="b">
+                <li><div style="text-align: center;"><h5 id="user4"><img src="assests/images/logo.png" /></h5></div></li>
+                <li data-icon="delete"><a href="#" data-rel="close">Close menu</a></li>
+                <li><a href="#home" data-transition="slide"><img src="css\themes\default\images\icons-png\home-white.png" alt="home" class="ui-li-icon"/>Home</a></li>                    
+                <li><a href="#rubrics" data-transition="slide" id="A6"><img src="css\themes\default\images\icons-png\bullets-white.png" alt="home" class="ui-li-icon"/>Make Rubrics</a></li>
+                <li><a href="#assess" data-transition="slide"><img src="css\themes\default\images\icons-png\edit-white.png" alt="home" class="ui-li-icon"/>Assessments</a></li>
+                <li><a href="#classes" data-transition="slide"><img src="css\themes\default\images\icons-png\user-white.png" alt="home" class="ui-li-icon"/>Manage Classes</a></li>
+                
+                <li><a href="#home" data-transition="slide"><img src="css\themes\default\images\icons-png\video-white.png" alt="home" class="ui-li-icon"/>Tutorial</a></li>
+                <li><a href="#planner" data-transition="slide"><img src="css\themes\default\images\icons-png\star-white.png" alt="home" class="ui-li-icon"/>Unit Planner</a></li>
+                <li><a href="#news" data-transition="slide"><img src="css\themes\default\images\icons-png\info-white.png" alt="home" class="ui-li-icon"/>News</a></li>
+                
+		</ul>
+	</div><!-- /panel -->
+	<div data-role="panel" data-position="right" data-display="reveal" data-theme="a" id="right-home">
+        <div id="Div8">
+        	<h2>Description</h2>
+            <p>Daily Rubric allows educators to quickly and consistently collect and share assessment that is directly connected to curriculum outcomes. Daily Rubric can be used as a companion to DLS Unit and Rubric Builder.</p> 
+            <p>Daily Rubric and Unit and Rubric Planner will soon be connected for PC to mobile usage--stay tuned!</p>
+            <p>To learn more about Unit and Planner, <a href="#" class="extlk">visit us online.</a></p>           
+        </div>
+	</div><!-- /panel -->
+
+</div><!-- /home page -->
+<div data-role="page" class="jqm-demos ui-responsive-panel" id="Tutorial" data-title="Tutorial"><!-- Tutorial page -->
+    <div data-role="header" data-position="fixed">
+        <h1>Tutorial</h1>
+        <a href="#nav-Tutorial" data-icon="bars" data-iconpos="notext">Menu</a>
+        <a href="#right-Tutorial" data-icon="info" data-iconpos="notext">Add</a>
+    </div><!-- /header -->
+    <!--<div role="main" class="ui-content jqm-content jqm-fullwidth">-->
+        <div class="container" style="padding: 0px; text-align:center">
+	          <!--<div>
+                <h3>Overview of Daily Rubric</h3>
+				<div>
+					<div class="vidimage">
+						<a href="#popupVideo-2" data-rel="popup">
+							<img src="assests/images/tut2.jpg" alt="Video Image 2">
+						</a>
+					</div>
+				</div>
+				<div data-role="popup" id="popupVideo-2" data-overlay-theme="b" data-theme="b" data-tolerance="15,15" class="ui-content video-popup">
+					<iframe></iframe>
+				</div>
+				<hr style="background: #bebebe; margin: 30px 0;">
+            </div>-->
+            <!--<div>
+                <h3>Extended Walk-Through</h3>
+				<div>
+					<div class="vidimage">
+						<a href="#popupVideo-3" data-rel="popup">
+							<img src="assests/images/tut2.jpg" alt="Video Image 3">
+						</a>
+					</div>
+				</div>
+				<div data-role="popup" id="popupVideo-3" data-overlay-theme="b" data-theme="b" data-tolerance="15,15" class="ui-content video-popup">
+					<iframe></iframe>
+				</div>
+				<hr style="background: #bebebe; margin: 30px 0;">
+            </div>-->
+            <!--<div>
+                <h3>Extended Walk-Through</h3>
+				<div>
+					<div class="vidimage">
+						<a href="#" class="tut">
+							<img src="assests/images/tut2.jpg" alt="Video Image 3">
+						</a>
+					</div>
+				</div>
+				
+				<hr style="background: #bebebe; margin: 30px 0;">
+            </div>
+        </div>-->
+                     
+	</div><!-- /content -->
+    <div data-role="footer" data-position="fixed" >
+		<a href="#" data-transition="slide" data-rel="back" data-role="button" data-inline="true" class="ui-btn ui-shadow ui-corner-all ui-mini ui-btn-inline ui-icon-carat-l ui-btn-icon-left ui-alt-icon ui-nodisc-icon">Back</a>
+	</div><!-- /footer -->
+
+	<div data-role="panel" data-display="overlay" data-theme="b" id="nav-Tutorial">                
+		        <ul data-role="listview" data-inset="false" data-theme="b">
+                <li><div style="text-align: center;"><h5 id="H1"><img src="assests/images/logo.png" /></h5></div></li>
+                <li data-icon="delete"><a href="#" data-rel="close">Close menu</a></li>
+                <li><a href="#home" data-transition="slide"><img src="css\themes\default\images\icons-png\home-white.png" alt="home" class="ui-li-icon"/>Home</a></li>                    
+                <li><a href="#rubrics" data-transition="slide" id="A8"><img src="css\themes\default\images\icons-png\bullets-white.png" alt="home" class="ui-li-icon"/>Make Rubrics</a></li>
+                <li><a href="#assess" data-transition="slide"><img src="css\themes\default\images\icons-png\edit-white.png" alt="home" class="ui-li-icon"/>Assessments</a></li>
+                <li><a href="#classes" data-transition="slide"><img src="css\themes\default\images\icons-png\user-white.png" alt="home" class="ui-li-icon"/>Manage Classes</a></li>
+                
+                <li><a href="#home" data-transition="slide"><img src="css\themes\default\images\icons-png\video-white.png" alt="home" class="ui-li-icon"/>Tutorial</a></li>
+                <li><a href="#planner" data-transition="slide"><img src="css\themes\default\images\icons-png\star-white.png" alt="home" class="ui-li-icon"/>Unit Planner</a></li>
+                <li><a href="#news" data-transition="slide"><img src="css\themes\default\images\icons-png\info-white.png" alt="home" class="ui-li-icon"/>News</a></li>
+                
+		</ul>
+	</div><!-- /panel -->
+	<div data-role="panel" data-position="right" data-display="reveal" data-theme="a" id="right-Tutorial">
+        <div id="Div12">
+        	<h2>Tutorial</h2>
+            <p>Daily Rubric allows educators to quickly and consistently collect and share assessment that is directly connected to curriculum outcomes. Daily Rubric can be used as a companion to DLS Unit and Rubric Builder.</p> 
+            
+            <p>To learn more about Unit and Planner, <a href="#" class="extlk">visit us online.</a></p>           
+        </div>
+	</div><!-- /panel -->
+</div><!-- /Tutorial page -->
+<div data-role="page" class="jqm-demos ui-responsive-panel" id="planner" data-title="Unit Planner"><!-- unit planner page -->
+    <div data-role="header" data-position="fixed">
+        <h1>Unit Planner</h1>
+        <a href="#nav-plan" data-icon="bars" data-iconpos="notext">Menu</a>
+        <a href="#right-plan" data-icon="info" data-iconpos="notext">Add</a>
+    </div><!-- /header -->
+    <div role="main" class="ui-content jqm-content jqm-fullwidth">
+        <div class="container" style="padding: 0px; text-align:center">
+            <div>
+                <h3>Preview of Unit and Rubric Planner</h3>
+                
+                <!--<p><a href="#" onclick="window.open('http://www.google.com', '_system');" id="print">test</a></p>-->
+                <p>Unit and Rubric Planner is an easy to use unit, lesson and rubric planner that follows a backward design method that walks educators through curriculum outcomes, tiered planning, and differentiation of instruction and assessment. It even auto-generates rubrics!</p>
+                <!--<a href="#" data-role="button" data-inline="true" data-icon="video" class="planner">Video Preview</a>-->
+                <a href="#popupVideo-1" data-role="button" data-inline="true" data-icon="video" data-rel="popup">Video Preview</a>
+                <div data-role="popup" id="popupVideo-1" data-overlay-theme="b" data-theme="b" data-tolerance="15,15" class="ui-content video-popup">
+					<iframe width="266" height="200" src="http://www.youtube.com/embed/IUtff1owJZA?rel=0"></iframe>
+				</div>
+            </div>
+<!--            <div>
+                <h3>Preview of Unit and Rubric Planner</h3>
+                <p>Unit and Rubric Planner for PC is an easy to use unit, lesson and rubric planner that follows a backward design method that walks educators through curriculum outcomes, tiered planning, and differentiation of instruction and assessment. It even auto-generates rubrics!</p>
+				<div>
+					<div class="vidimage">
+						<a href="#popupVideo-1" data-role="button" data-inline="true" data-icon="video" data-rel="popup">Video Preview</a>
+					</div>
+				</div>
+				<div data-role="popup" id="popupVideo-1" data-overlay-theme="b" data-theme="b" data-tolerance="15,15" class="ui-content video-popup">
+					<iframe></iframe>
+				</div>
+                
+				<hr style="background: #bebebe; margin: 30px 0;">
+            </div>-->
+        </div>
+                     
+	</div><!-- /content -->
+    <div data-role="footer" data-position="fixed" >
+		<a href="#" data-transition="slide" data-rel="back" data-role="button" data-inline="true" class="ui-btn ui-shadow ui-corner-all ui-mini ui-btn-inline ui-icon-carat-l ui-btn-icon-left ui-alt-icon ui-nodisc-icon">Back</a>
+	</div><!-- /footer -->
+	<div data-role="panel" data-display="overlay" data-theme="b" id="nav-plan">                
+		        <ul data-role="listview" data-inset="false" data-theme="b">
+                <li><div style="text-align: center;"><h5 id="H2"><img src="assests/images/logo.png" /></h5></div></li>
+                <li data-icon="delete"><a href="#" data-rel="close">Close menu</a></li>
+                <li><a href="#home" data-transition="slide"><img src="css\themes\default\images\icons-png\home-white.png" alt="home" class="ui-li-icon"/>Home</a></li>                    
+                <li><a href="#rubrics" data-transition="slide" id="A9"><img src="css\themes\default\images\icons-png\bullets-white.png" alt="home" class="ui-li-icon"/>Make Rubrics</a></li>
+                <li><a href="#assess" data-transition="slide"><img src="css\themes\default\images\icons-png\edit-white.png" alt="home" class="ui-li-icon"/>Assessments</a></li>
+                <li><a href="#classes" data-transition="slide"><img src="css\themes\default\images\icons-png\user-white.png" alt="home" class="ui-li-icon"/>Manage Classes</a></li>
+                
+                <li><a href="#home" data-transition="slide"><img src="css\themes\default\images\icons-png\video-white.png" alt="home" class="ui-li-icon"/>Tutorial</a></li>
+                <li><a href="#planner" data-transition="slide"><img src="css\themes\default\images\icons-png\star-white.png" alt="home" class="ui-li-icon"/>Unit Planner</a></li>
+                <li><a href="#news" data-transition="slide"><img src="css\themes\default\images\icons-png\info-white.png" alt="home" class="ui-li-icon"/>News</a></li>
+                              
+		</ul>
+	</div><!-- /panel -->
+	<div data-role="panel" data-position="right" data-display="reveal" data-theme="a" id="right-plan">
+        <div id="Div13">
+        	<h2>Description</h2>
+            <p>Daily Rubric allows educators to quickly and consistently collect and share assessment that is directly connected to curriculum outcomes. Daily Rubric can be used as a companion to DLS Unit and Rubric Builder.</p> 
+            
+            <p>To learn more about Unit and Planner, <a href="#" class="extlk">visit us online.</a></p>           
+        </div>
+	</div><!-- /panel -->
+</div><!-- /unit planner page -->
+<div data-role="page" class="jqm-demos ui-responsive-panel" id="news" data-title="News"><!-- news page -->
+    <div data-role="header" data-position="fixed">
+        <h1>News</h1>
+        <a href="#nav-news" data-icon="bars" data-iconpos="notext">Menu</a>
+        <a href="#right-news" data-icon="info" data-iconpos="notext">Add</a>
+    </div><!-- /header -->
+    <div role="main" class="ui-content jqm-content jqm-fullwidth">
+        <div class="container" style="padding: 0px; text-align:center">
+	        <div id="divRss">
+
+
+	        </div>
+        </div>
+                     
+	</div><!-- /content -->
+    <div data-role="footer" data-position="fixed" >
+		<a href="#" data-transition="slide" data-rel="back" data-role="button" data-inline="true" class="ui-btn ui-shadow ui-corner-all ui-mini ui-btn-inline ui-icon-carat-l ui-btn-icon-left ui-alt-icon ui-nodisc-icon">Back</a>
+	</div><!-- /footer -->
+
+	<div data-role="panel" data-display="overlay" data-theme="b" id="nav-news">                
+		        <ul data-role="listview" data-inset="false" data-theme="b">
+                <li><div style="text-align: center;"><h5 id="H3"><img src="assests/images/logo.png" /></h5></div></li>
+                <li data-icon="delete"><a href="#" data-rel="close">Close menu</a></li>
+                <li><a href="#home" data-transition="slide"><img src="css\themes\default\images\icons-png\home-white.png" alt="home" class="ui-li-icon"/>Home</a></li>                    
+                <li><a href="#rubrics" data-transition="slide" id="A10"><img src="css\themes\default\images\icons-png\bullets-white.png" alt="home" class="ui-li-icon"/>Make Rubrics</a></li>
+                <li><a href="#assess" data-transition="slide"><img src="css\themes\default\images\icons-png\edit-white.png" alt="home" class="ui-li-icon"/>Assessments</a></li>
+                <li><a href="#classes" data-transition="slide"><img src="css\themes\default\images\icons-png\user-white.png" alt="home" class="ui-li-icon"/>Manage Classes</a></li>
+                
+                <li><a href="#home" data-transition="slide"><img src="css\themes\default\images\icons-png\video-white.png" alt="home" class="ui-li-icon"/>Tutorial</a></li>
+                <li><a href="#planner" data-transition="slide"><img src="css\themes\default\images\icons-png\star-white.png" alt="home" class="ui-li-icon"/>Unit Planner</a></li>
+                <li><a href="#news" data-transition="slide"><img src="css\themes\default\images\icons-png\info-white.png" alt="home" class="ui-li-icon"/>News</a></li>
+                
+                
+		</ul>
+	</div><!-- /panel -->
+	<div data-role="panel" data-position="right" data-display="reveal" data-theme="a" id="right-news">
+        <div id="Div17">
+        	<h2>Description</h2>
+            <p>Daily Rubric allows educators to quickly and consistently collect and share assessment that is directly connected to curriculum outcomes. Daily Rubric can be used as a companion to DLS Unit and Rubric Builder.</p> 
+            
+            <p>To learn more about Unit and Planner, <a href="#" class="extlk">visit us online.</a></p>           
+        </div>
+	</div><!-- /panel -->
+</div><!-- /news page -->
+     <div data-role="page" id="picpop" class="jqm-demos ui-responsive-panel"> <!--picpop">-->
+                <div data-role="header" data-theme="a" class="ui-corner-top">  
+                <h1 id="stdimagename">Image</h1>
+                </div>            
+                <div data-role="content" data-theme="d" class="ui-corner-bottom ui-content" style="text-align:center">               
+                <div id="pic">
+                    
+                </div>
+                    <!--<img style="display:none;width:60px;height:60px;" id="LargeImage" src="" />-->
+                <div>
+                    <!--<button id="openphoto" onclick="getPhoto(pictureSource.PHOTOLIBRARY);" data-inline="true" data-icon="camera" >change picture</button>-->
+                    <h2>Assessment notes:</h2>
+                    <textarea id="anecdote" placeholder="Enter notes here"></textarea>
+                </div>       
+                <a data-transition="flip" id="picpopdone" data-role="button" data-inline="true" data-rel="back" data-theme="c" class="ui-btn ui-shadow ui-corner-all ui-mini ui-btn-inline ui-icon-carat-l ui-btn-icon-left ui-alt-icon ui-nodisc-icon">Done</a>
+                </div>
+     </div>	<!-- pop page -->
+</body>
+</html>

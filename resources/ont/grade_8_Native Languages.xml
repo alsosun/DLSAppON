@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<curriculum>
+<pdf>http://www.edu.gov.on.ca/eng/curriculum/elementary/nativelang18curr.pdf</pdf>
+  <strand id="Oral Communication">
+    <strand_text>Oral Communication</strand_text>
+    <overalls>
+      <overall id="1">
+        <overall_text>a) communicate in various contexts and for a variety of purposes; b)  demonstrate an understanding of ideas conveyed in various oral texts; c) discuss language structures and their functions; d) use correctly the grammar and vocabulary elements specified for this grade; e) use information technology to communicate in the Native language;
+f) demonstrate knowledge and understanding of various aspects of the Native culture under study.</overall_text>
+        <specifics>
+          <specific>express ideas, feelings, and opinions in conversations;
+</specific>
+          <specific>use compound and complex sentences in conversations and discussions (e.g., If it rains, I will sleep; If it rains, I will take the clothes off the clothesline so they won't get wet)
+</specific>
+          <specific>demonstrate an understanding of oral language in a variety of situations (e.g., by following detailed instructions, by summarizing information given in audio and video presentations);
+</specific>
+          <specific>demonstrate an understanding of a variety of language structures, including contractions, used by Native speakers;
+</specific>
+          <specific>participate in a variety of oral language activities appropriate for the grade (e.g., describe personal experiences, play games using the language);
+</specific>
+          <specific>give oral presentations on aspects of the Native culture studied, using information gathered through research (e.g., give a talk on Native values and traditions based on interviews with speakers of the Native language in the community).</specific>
+        </specifics>
+      </overall>
+    </overalls>
+  </strand>
+  <strand id="Reading">
+    <strand_text>Reading</strand_text>
+    <overalls>
+      <overall id="1">
+        <overall_text>a) communicate in various contexts and for a variety of purposes; b)  discuss language structures and their functions; c) read for a variety of purposes in the writing system used in the program, including information and enjoyment; d) demonstrate a variety of research skills; e) demonstrate knowledge and understanding of various aspects of the Native culture under study.</overall_text>
+        <specifics>
+          <specific>read a variety of written texts (e.g., works by Native authors, Native legends, articles dealing with Native values);</specific>
+          <specific>demonstrate an understanding of the information and ideas conveyed in written materials (e.g., identify the main ideas and supporting details in short stories and information materials);</specific>
+          <specific>participate in a variety of reading activities appropriate for the grade (e.g., identify specific language structures in texts and discuss their uses, summarize detailed written instructions such as those given in a recipe);
+</specific>
+          <specific>read independently using various reading strategies (e.g., draw on personal experience, use verbal cues, analyse context) to determine meaning;
+</specific>
+          <specific>read their own work aloud, as well as the work of their peers, using proper pronunciation;
+</specific>
+          <specific>use various sources to locate reading materials in the Native language.</specific>
+        </specifics>
+      </overall>
+    </overalls>
+  </strand>
+  <strand id="Writing">
+    <strand_text>Writing</strand_text>
+    <overalls>
+      <overall id="1">
+        <overall_text>a) communicate in various contexts and for a variety of purposes; b) write in a variety of forms and for a variety of purposes using the writing system used in the program; c) use correctly the grammar and vocabulary elements specified for this grade; d)  use information technology to communicate in the Native language; e) demonstrate a variety of research skills;
+		+ demonstrate knowledge and understanding of various aspects of the Native culture under study.</overall_text>
+        <specifics>
+          <specific>write for a variety of purposes using different forms (e.g., write a letter to communicate thoughts and feelings; write a composition to describe a personal experience; write a radio or television news report to present an analysis of an issue related to Native youth; write a story to illustrate how Native people view the relationship between humans and the land);
+</specific>
+          <specific>use all the steps of the writing process to produce a polished piece of writing;
+</specific>
+          <specific>use correctly the language structures and vocabulary specified for this grade;
+</specific>
+          <specific>use information technology to communicate in the Native language with other students;
+</specific>
+          <specific>use information technology to enhance their writing (e.g., create visual material for a presentation on a topic related to the Native culture under study);
+</specific>
+          <specific>use correct spelling in their writing, drawing on a variety of resources (e.g., personal lexicon, classroom-displayed vocabulary lists, electronic dictionaries, spell-check feature of software programs);
+</specific>
+          <specific>demonstrate knowledge and understanding of various aspects of the Native culture sudied in their writing.
+</specific>
+        </specifics>
+      </overall>
+    </overalls>
+  </strand>
+</curriculum>

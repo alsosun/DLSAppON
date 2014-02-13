@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<curriculum>
+<pdf>http://www.edu.gov.on.ca/eng/curriculum/elementary/nativelang18curr.pdf</pdf>
+  <strand id="Oral Communication">
+    <strand_text>Oral Communication</strand_text>
+    <overalls>
+      <overall id="1">
+        <overall_text>a) communicate in familiar contexts using simple sentences;
+		b) demonstrate an understanding of spoken language in familiar contexts, using both verbal and non-verbal cues; c) demonstrate an understanding of vocabulary and language structures appropriate for this grade; d) demonstrate an appreciation and understanding of aspects of the Native culture under study</overall_text>
+        <specifics>
+          <specific>communicate in familiar contexts using basic vocabulary and simple sentences (e.g., give simple directions - Put the books there );</specific>
+          <specific>participate in structured oral language activities appropriate for the grade (e.g., answer questions with simple sentences - I am not going there );</specific>
+          <specific>demonstrate an understanding of various types of simple sentences;
+</specific>
+          <specific>respond to a variety of oral messages using simple sentences;
+</specific>
+          <specific>demonstrate an understanding of simple oral messages using both verbal and non-verbal cues.
+</specific>
+        </specifics>
+      </overall>
+    </overalls>
+  </strand>
+  <strand id="Reading">
+    <strand_text>Reading</strand_text>
+    <overalls>
+      <overall id="1">
+        <overall_text>a) communicate in familiar contexts using simple sentences; b) demonstrate an understanding of vocabulary and language structures appropriate for this grade; c) read simple sentences in the writing system used in the program; d) demonstrate an appreciation and understanding of aspects of the Native culture under study</overall_text>
+        <specifics>
+          <specific>read simple sentences in the writing system used in the program;
+</specific>
+          <specific>demonstrate an understanding of what they read (e.g., by answering simple questions or explaining the meaning of simple sentences);
+</specific>
+          <specific>participate in structured reading activities appropriate for the grade (e.g., identify words or phrases that contain the same root words);
+</specific>
+          <specific>use visual cues (e.g., pictures, illustrations) and other reading strategies (e.g., consider word order) to determine the meaning of simple sentences;
+</specific>
+          <specific>recognize simple sentence patterns that have been introduced orally;</specific>
+          <specific>read simple sentences aloud using pictures.
+</specific>
+        </specifics>
+      </overall>
+    </overalls>
+  </strand>
+  <strand id="Writing">
+    <strand_text>Writing</strand_text>
+    <overalls>
+      <overall id="1">
+        <overall_text>a) communicate in familiar contexts using simple sentences; b) demonstrate an understanding of vocabulary and language structures appropriate for this grade; c) write simple sentences in the writing system used in the program; d) demonstrate an appreciation and understanding of aspects of the Native culture under study</overall_text>
+        <specifics>
+          <specific>write simple sentences in the writing system used in the program;
+</specific>
+          <specific>write simple messages using simple sentences (e.g., I went home);
+</specific>
+          <specific>participate in structured writing activities appropriate for the grade (e.g., write simple sentences that describe a thing or animal);
+</specific>
+          <specific>spell words and phrases correctly in simple sentences, using available resources to confirm spelling.
+</specific>
+        </specifics>
+      </overall>
+    </overalls>
+  </strand>
+</curriculum>

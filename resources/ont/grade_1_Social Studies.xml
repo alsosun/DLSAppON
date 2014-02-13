@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<curriculum>
+  <pdf>http://www.edu.gov.on.ca/eng/curriculum/elementary/sstudies18curr.pdf</pdf>
+  <strand id="Heritage and Citizenship">
+    <strand_text>Heritage and Citizenship</strand_text>
+    <overalls>
+      <overall id="1">
+        <overall_text>identify people with whom they have significant relationships, and the rules and responsibilities associated with people, places, and events in their lives and communities;</overall_text>
+        <specifics>
+          <specific>* state in simple terms what "relationships", "rules", and "responsibilities" are;</specific>
+          <specific>* explain why rules and responsibilities have been established (e.g., for protection and safety, for fair division of work);</specific>
+          <specific>* identify important relationships in their lives (e.g., with family members, friends, pets, teachers) and name some responsibilities that are part of these relationships;</specific>
+          <specific>* describe significant people and places in their lives (e.g., parents, sports figures; bedroom, park, playground, community centre) and the rules associated with them;</specific>
+          <specific>* describe significant people and places in their lives (e.g., parents, sports figures; bedroom, park, playground, community centre) and the rules associated with them;</specific>
+          <specific>* identify significant events in their lives (e.g., their first day of school, a trip) and the rules associated with them;</specific>
+          <specific>* describe how they follow the rules about respecting the rights and property of other people and about using the shared environment responsibly (e.g., by sharing, being courteous, cooperating, not littering).</specific>
+        </specifics>
+      </overall>
+      <overall id="2">
+        <overall_text>use a variety of resources and tools to gather, process, and communicate information about the rules people follow in daily life and the responsibilities of family members and other people in their school and community;</overall_text>
+        <specifics>
+          <specific>* brainstorm and ask simple questions (e.g., How? Why?) to gain information about relationships, rules, and responsibilities;</specific>
+          <specific>* use primary and secondary sources to locate information about relationships, rules, and responsibilities in their home, school, and community (e.g., primary sources: interviews, eyewitness visitors, class trips; secondary sources: maps, illustrations, print materials, technology);</specific>
+          <specific>* use illustrations, key words, and simple sentences (e.g., chart, picture book, cartoon) to sort, classify, and record information about relationships, rules, and responsibilities;</specific>
+          <specific>* construct and read concrete, pictorial, and simple maps, graphs, charts, diagrams, and timelines to clarify and present information about relationships, rules, and responsibilities in their daily lives (e.g., timeline of a school day, class graph of students' responsibilities at home);</specific>
+          <specific>* use appropriate vocabulary (e.g., change, rights, responsibilities, roles, respecting rules, cooperating, being courteous) to communicate the results of inquiries and observations about relationships, rules, and responsibilities.</specific>
+        </specifics>
+      </overall>
+      <overall id="3">
+        <overall_text>explain how and why relationships, rules, and responsibilities may change over time, and in different places.</overall_text>
+        <specifics>
+          <specific>* explain how events and actions (e.g., a ban on popular toys at school, birth of a sibling) can cause rules and responsibilities to change, and describe what some new rules and responsibilities might be;</specific>
+          <specific>* identify an area of concern (e.g., littering, sharing, conflicts), and suggest changes in rules or responsibilities to provide possible solutions;</specific>
+          <specific>* order a sequence of events to demonstrate how relationships, rules, or responsibilities change over time (e.g., throughout the day, throughout the school year), and in different places.</specific>
+        </specifics>
+      </overall>
+    </overalls>
+  </strand>
+  <strand id="Canada and World Connections">
+    <strand_text>Canada and World Connections</strand_text>
+    <overalls>
+      <overall id="1">
+        <overall_text>recognize that communities consist of various physical features and community facilities that meet human needs;</overall_text>
+        <specifics>
+          <specific>* identify the physical and social needs of residents in an area (e.g., for food, water, shelter, safety, recreation, social interaction);</specific>
+          <specific>* identify the distinguishing physical features of their community (e.g., buildings, roads, rivers, lakes);</specific>
+          <specific>* list the occupations of some people in the community (e.g., storekeeper, hair stylist, mail carrier, farmer, teacher, police officer, firefighter, doctor, nurse, salesperson);</specific>
+          <specific>* identify the places in which people work and describe the technologies, tools, and vehicles they use;</specific>
+          <specific>* list the different ways in which people travel around the community (e.g., by bus, car, bicycle; on foot).</specific>
+        </specifics>
+      </overall>
+      <overall id="2">
+        <overall_text>use a variety of resources and tools to gather, process, and communicate information about the distinguishing physical features and community facilities in their area;</overall_text>
+        <specifics>
+          <specific>* brainstorm and ask simple questions (e.g., Who? What? When? Where?) to gain information about their local community;</specific>
+          <specific>* use pictures, maps, print materials, media sources, and/or class trips to locate information about their local community, including safe places in the community (e.g., school, police station, homes of block parents and neighbours);</specific>
+          <specific>* use illustrations, key words, and simple sentences (e.g., graphic organizer, cooperative big book) to sort, classify, and record information about their local community;</specific>
+          <specific>* use appropriate vocabulary (e.g., location, map, symbol, distance, title, legend, direction) to communicate the results of inquiries and observations about their local community.</specific>
+          <specific>* make models and read maps of familiar areas in their local community;</specific>
+          <specific>* use non-standard units to measure distance on a map (e.g., paces, tiles, blocks);</specific>
+          <specific>* demonstrate an understanding of scale (e.g., give the reasons for using small objects to represent large ones on a map);</specific>
+          <specific>* use their own symbols on a map to identify buildings and places in their local community (e.g., house, barn, school, fire station, police station, community centre, road, shopping area);</specific>
+          <specific>* recognize that different colours represent different things on a map (e.g., blue/water, green/land);</specific>
+          <specific>* use appropriate words (e.g., left/right, up/down, front/back, near/far, above/below) to describe relative locations of places and objects.</specific>
+        </specifics>
+      </overall>
+      <overall id="3">
+        <overall_text>describe how people in the community interact with each other and the physical environment to meet human needs.</overall_text>
+        <specifics>
+          <specific>* identify and describe routes within the school (e.g., fire route, exit route), using familiar symbols and landmarks (e.g., washroom, drinking fountain, offices);</specific>
+          <specific>* construct a model of their local community to show how people's physical and social needs are served within the area (e.g., locations of fire station, small or large retail buildings, recreational facilities, school, library; transportation routes);</specific>
+          <specific>* list a variety of occupations in the community and explain how they meet people's needs.</specific>
+        </specifics>
+      </overall>
+    </overalls>
+  </strand>
+</curriculum>

@@ -1,0 +1,110 @@
+<curriculum>
+	<grade>
+		<grade_text>k</grade_text>
+		<subjects id="k">Arts</subjects>
+		<subjects id="k">Health and PA</subjects>
+		<subjects id="k">Language</subjects>
+		<subjects id="k">Mathematics</subjects>
+		<subjects id="k">Personal and Soc</subjects>
+		<subjects id="k">Science and Tech</subjects>
+	</grade>
+	<grade>
+		<grade_text>1</grade_text>
+		<subjects id="1">Arts</subjects>
+		<subjects id="1">Language</subjects>
+		<subjects id="1">French</subjects>
+		<subjects id="1">Health and PE</subjects>
+		<subjects id="1">Mathematics</subjects>
+		<subjects id="1">Native Languages</subjects>
+		<subjects id="1">Science and Tech</subjects>
+		<subjects id="1">Social Studies</subjects>
+	</grade>
+	<grade>
+		<grade_text>2</grade_text>
+		<subjects id="2">Arts</subjects>
+		<subjects id="2">Language</subjects>
+		<subjects id="2">French</subjects>
+		<subjects id="2">Health and PE</subjects>
+		<subjects id="2">Mathematics</subjects>
+		<subjects id="2">Native Languages</subjects>
+		<subjects id="2">Science and Tech</subjects>
+		<subjects id="2">Social Studies</subjects>
+	</grade>
+	<grade>
+		<grade_text>3</grade_text>
+		<subjects id="3">Arts</subjects>
+		<subjects id="3">Language</subjects>
+		<subjects id="3">French</subjects>
+		<subjects id="3">Health and PE</subjects>
+		<subjects id="3">Mathematics</subjects>
+		<subjects id="3">Native Languages</subjects>
+		<subjects id="3">Science and Tech</subjects>
+		<subjects id="3">Social Studies</subjects>
+	</grade>
+	<grade>
+		<grade_text>4</grade_text>
+		<subjects id="4">Arts</subjects>
+		<subjects id="4">Language</subjects>
+		<subjects id="4">French</subjects>
+		<subjects id="4">French Ext</subjects>
+		<subjects id="4">French Core</subjects>
+		<subjects id="4">Health and PE</subjects>
+		<subjects id="4">Mathematics</subjects>
+		<subjects id="4">Native Languages</subjects>
+		<subjects id="4">Science and Tech</subjects>
+		<subjects id="4">Social Studies</subjects>
+	</grade>
+	<grade>
+		<grade_text>5</grade_text>
+		<subjects id="5">Arts</subjects>
+		<subjects id="5">Language</subjects>
+		<subjects id="5">French</subjects>
+		<subjects id="5">French Ext</subjects>
+		<subjects id="5">French Core</subjects>
+		<subjects id="5">Health and PE</subjects>
+		<subjects id="5">Mathematics</subjects>	
+		<subjects id="5">Native Languages</subjects>		
+		<subjects id="5">Science and Tech</subjects>
+		<subjects id="5">Social Studies</subjects>
+	</grade>
+	<grade>
+		<grade_text>6</grade_text>
+		<subjects id="6">Arts</subjects>		
+		<subjects id="6">Language</subjects>
+		<subjects id="6">French</subjects>
+		<subjects id="6">French Ext</subjects>
+		<subjects id="6">French Core</subjects>
+		<subjects id="6">Health and PE</subjects>
+		<subjects id="6">Mathematics</subjects>
+		<subjects id="6">Native Languages</subjects>		
+		<subjects id="6">Science and Tech</subjects>
+		<subjects id="6">Social Studies</subjects>
+	</grade>
+	<grade>
+		<grade_text>7</grade_text>
+		<subjects id="7">Arts</subjects>		
+		<subjects id="7">Language</subjects>
+		<subjects id="7">French</subjects>
+		<subjects id="7">French Ext</subjects>
+		<subjects id="7">French Core</subjects>
+		<subjects id="7">Health and PE</subjects>
+		<subjects id="7">Mathematics</subjects>	
+		<subjects id="7">Native Languages</subjects>
+		<subjects id="7">Science and Tech</subjects>
+		<subjects id="7">Social Studies</subjects>
+	</grade>
+	<grade>
+		<grade_text>8</grade_text>
+		<subjects id="8">Arts</subjects>		
+		<subjects id="8">Language</subjects>
+		<subjects id="8">French</subjects>
+		<subjects id="8">French Ext</subjects>
+		<subjects id="8">French Core</subjects>
+		<subjects id="8">Health and PE</subjects>
+		<subjects id="8">Mathematics</subjects>
+		<subjects id="8">Native Languages</subjects>
+		<subjects id="8">Science and Tech</subjects>
+		<subjects id="8">Social Studies</subjects>
+	</grade>
+	
+</curriculum>

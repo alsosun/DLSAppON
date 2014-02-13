@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<curriculum>
+  <pdf>http://www.edu.gov.on.ca/eng/curriculum/elementary/math18curr.pdf</pdf>
+  <strand id="Number Sense and Numeration">
+    <strand_text>Number Sense and Numeration</strand_text>
+    <overalls>
+      <overall id="1">
+        <overall_text>read, represent, compare, and order whole numbers to 10 000, decimal numbers to tenths, and simple fractions, and represent money amounts to $100;</overall_text>
+        <specifics>
+          <specific>- represent, compare, and order whole numbers to 10 000, using a variety of tools (e.g., drawings of base ten materials,
+number lines with increments of 100 or other appropriate amounts);</specific>
+          <specific>- demonstrate an understanding of place value in whole numbers and decimal numbers from 0.1 to 10 000, using a variety of tools and strategies (e.g., use base ten materials to represent 9307 as 9000 + 300 + 0 + 7) (Sample problem: Use the digits 1, 9, 5, 4 to create the greatest number and the least number possible, and explain your thinking.);</specific>
+          <specific>- read and print in words whole numbers to one thousand, using meaningful contexts (e.g., books, highway distance signs);
+- round four-digit whole numbers to the nearest ten, hundred, and thousand, in problems arising from real-life situations;</specific>
+          <specific>- represent, compare, and order decimal numbers to tenths, using a variety of tools (e.g., concrete materials such as paper
+strips divided into tenths and base ten materials, number lines, drawings) and using standard decimal notation (Sample
+problem: Draw a partial number line that extends from 4.2 to 6.7, and mark the location of 5.6.);</specific>
+          <specific>- represent fractions using concrete materials, words, and standard fractional notation, and explain the meaning of the denominator as the number of the fractional parts of a whole or a set, and the numerator as the number of fractional parts being considered;</specific>
+          <specific>- compare and order fractions (i.e., halves, thirds, fourths, fifths, tenths) by considering the size and the number of fractionalparts (e.g., 4/5 us greater than 3/5 because there are more parts in 4/5; 1/4 is greater than 1/5 because the size of the part is larger in 1/4)</specific>
+          <specific>- compare fractions to the benchmarks of 0, 1/2, and 1 (e.g., 1/8 is closer to 0 than 1/2; 3/5 more than 1/2); demonstrate and explain the relationship between equivalent fractions, using concrete materials (e.g., fraction circles, fraction
+strips, pattern blocks) and drawings (e.g.,“I can say that 3/6 of my cubes are white, or half of the cubes are white.
+  This means that 3/6 and 1/2 are equal.”);</specific>
+          <specific>- read and represent money amounts to $100 (e.g., five dollars, two quarters, one nickel, and four cents is $5.59);</specific>
+          <specific>- solve problems that arise from real-life situations and that relate to the magnitude of whole numbers up to 10 000 (Sample
+problem: How high would a stack of 10 000 pennies be? Justify your answer.).</specific>
+        </specifics>
+      </overall>
+      <overall id="2">
+        <overall_text>demonstrate an understanding of magnitude by counting forward and backwards by 0.1 and by fractional amounts;</overall_text>
+        <specifics>
+          <specific>- count forward by halves, thirds, fourths, and tenths to beyond one whole, using concrete materials and number lines (e.g.,
+use fraction circles to count fourths: “One fourth, two fourths, three fourths, four fourths, five fourths, six fourths, …”);</specific>
+          <specific>- count forward by tenths from any decimal number expressed to one decimal place, using concrete materials and number lines
+(e.g., use base ten materials to represent 3.7 and count forward: 3.8, 3.9, 4.0, 4.1, …; “Three and seven tenths, three and eight tenths, three and nine tenths, four, four and one tenth, …”) (Sample problem: What connections can you make between
+counting by tenths and measuring lengths in millimetres and in centimetres?).</specific>
+        </specifics>
+      </overall>
+      <overall id="3">
+        <overall_text>solve problems involving the addition, subtraction,multiplication, and division of single- and multi-digit whole numbers, and involving the addition and subtraction of decimal numbers to tenths and money amounts, using a variety of strategies;</overall_text>
+        <specifics>
+          <specific>- add and subtract two-digit numbers, using avariety of mental strategies (e.g., one way to calculate 73 - 39 is to subtract 40 from 73 to get 33, and then add 1 back to get 34); </specific>
+          <specific>- solve problems involving the addition and subtraction of four-digit numbers, using student-generated algorithms and standard algorithms (e.g.,“I added 4217 + 1914 using 5000 + 1100 + 20 + 11.”);</specific>
+          <specific>- add and subtract decimal numbers to tenths, using concrete materials (e.g., paper strips divided into tenths, base ten
+materials) and student-generated algorithms (e.g.,“When I added 6.5 and 5.6, I took five tenths in fraction circles and
+added six tenths in fraction circles to give me one whole and one tenth. Then I added 6 + 5 + 1.1, which equals 12.1.”);</specific>
+          <specific>- add and subtract money amounts by making simulated purchases and providing change for amounts up to $100, using a
+variety of tools (e.g., currency manipulatives, drawings);</specific>
+          <specific>- multiply to 9 x 9 and divide to 81 ÷ 9, using a variety of mental strategies (e.g., doubles, doubles plus another set, skip
+counting);</specific>
+          <specific>- solve problems involving the multiplication of one-digit whole numbers, using a variety of mental strategies (e.g., 6 x 8 can be thought of as 5 x 8 + 1 x 8);</specific>
+          <specific>- multiply whole numbers by 10, 100, and 1000, and divide whole numbers by 10 and 100, using mental strategies (e.g., use a
+calculator to look for patterns and generalize to develop a rule);</specific>
+          <specific>- multiply two-digit whole numbers by one-digit whole numbers, using a variety of tools (e.g., base ten materials or drawings
+of them, arrays), student-generated algorithms, and standard algorithms;</specific>
+          <specific>- divide two-digit whole numbers by onedigit whole numbers, using a variety of tools (e.g., concrete materials, drawings)
+and student-generated algorithms;</specific>
+          <specific>- use estimation when solving problems involving the addition, subtraction, and multiplication of whole numbers, to help
+judge the reasonableness of a solution (Sample problem: A school is ordering pencils that come in boxes of 100. If there
+are 9 classes and each class needs about 110 pencils, estimate how many boxes the school should buy.).</specific>
+        </specifics>
+      </overall>
+      <overall id="4">
+        <overall_text>demonstrate an understanding of proportional reasoning by investigating whole-number unit rates.</overall_text>
+        <specifics>
+          <specific>- describe relationships that involve simple whole-number multiplication (e.g.,“If you have 2 marbles and I have 6 marbles, I can say that I have three times the number of marbles you have.”); </specific>
+          <specific>- determine and explain, through investigation, the relationship between fractions (i.e., halves, fifths, tenths) and decimals to tenths, using a variety of tools (e.g., concrete materials, drawings, calculators) and strategies (e.g., decompose 2/5 into 4/10 by dividing each fifth into two equal parts to show that 2/5 can be represented as 0.4);</specific>
+          <specific>- demonstrate an understanding of simple multiplicative relationships involving unit rates, through investigation using concrete materials and drawings (e.g., scale drawings in which 1 cm represents 2 m) (Sample problem: If 1 book costs $4, how
+do you determine the cost of 2 books?… 3 books?…4 books?).</specific>
+        </specifics>
+      </overall>
+    </overalls>
+  </strand>
+  <strand id="Measurement">
+    <strand_text>Measurement</strand_text>
+    <overalls>
+      <overall id="1">
+        <overall_text>estimate, measure, and record length, perimeter, area, mass, capacity, volume, and elapsed time, using a variety of strategies;</overall_text>
+        <specifics>
+          <specific>- estimate, measure, and record length, height, and distance, using standard units (i.e., millimetre, centimetre, metre, kilometre) (e.g., a pencil that is 75 mm long);</specific>
+          <specific>- draw items using a ruler, given specific lengths in millimetres or centimetres (Sample problem: Use estimation to draw
+a line that is 115 mm long. Beside it, use a ruler to draw a line that is 115 mm long. Compare the lengths of the lines.);</specific>
+          <specific>- estimate, measure (i.e., using an analogue clock), and represent time intervals to the nearest minute;</specific>
+          <specific>- estimate and determine elapsed time, with and without using a time line, given the durations of events expressed in five-minute intervals, hours, days,weeks, months, or years (Sample problem: If you wake up at 7:30 a.m., and it takes you 10 minutes to eat your breakfast, 5 minutes to brush your teeth, 25 minutes to wash and get dressed, 5 minutes to get your backpack ready, and 20 minutes to get to school, will you be at school by 9:00 a.m.?);</specific>
+          <specific>- estimate, measure using a variety of tools(e.g., centimetre grid paper, geoboard) and strategies, and record the perimeter and area of polygons;</specific>
+          <specific>- estimate, measure, and record the mass of objects (e.g., apple, baseball, book), using the standard units of the kilogram and the gram;</specific>
+          <specific>- estimate, measure, and record the capacity of containers (e.g., a drinking glass, a juice box), using the standard units of the litre and the millilitre;</specific>
+          <specific>- estimate, measure using concrete materials, and record volume, and relate volume to the space taken up by an object (e.g., use centimetre cubes to demonstrate how much space a rectangular prism takes up) (Sample problem: Build a rectangular
+prism using connecting cubes. Describe the volume of the prism using the number of connecting cubes.).</specific>
+        </specifics>
+      </overall>
+      <overall id="2">
+        <overall_text>determine the relationships among units and measurable attributes, including the area and perimeter of rectangles.</overall_text>
+        <specifics>
+          <specific>- describe, through investigation, the relationship between various units of length (i.e., millimetre, centimetre, decimetre,
+metre, kilometre);</specific>
+          <specific>- select and justify the most appropriate  standard unit (i.e., millimetre, centimetre, decimetre, metre, kilometre) to measure the side lengths and perimeters of various polygons;</specific>
+          <specific>- determine, through investigation, the relationship between the side lengths of a rectangle and its perimeter and area
+(Sample problem: Create a variety of rectangles on a geoboard. Record the length, width, area, and perimeter of each rectangle on a chart. Identify relationships.);</specific>
+          <specific>- pose and solve meaningful problems that require the ability to distinguish perimeter and area (e.g.,“I need to know about area when I cover a bulletin board with construction paper. I need to know about perimeter when I make the border.”);</specific>
+          <specific>- compare and order a collection of objects, using standard units of mass (i.e., gram, kilogram) and/or capacity (i.e., millilitre, litre);</specific>
+          <specific>- determine, through investigation, the relationship between grams and kilograms (Sample problem: Use centimetre cubes
+with a mass of one gram, or other objects of known mass, to balance a one-kilogram mass.);</specific>
+          <specific>- determine, through investigation, the relationship between millilitres and litres (Sample problem: Use small containers of
+different known capacities to fill a onelitre container.);</specific>
+          <specific>- select and justify the most appropriate standard unit to measure mass (i.e., milligram, gram, kilogram) and the most
+appropriate standard unit to measure the capacity of a container (i.e., millilitre, litre);</specific>
+          <specific>- solve problems involving the relationship between years and decades, and between decades and centuries (Sample problem:
+How many decades old is Canada?);</specific>
+          <specific>- compare, using a variety of tools (e.g., geoboard, patterns blocks, dot paper), two-dimensional shapes that have the
+same perimeter or the same area (Sample problem: Draw, using grid paper, as many different rectangles with a perimeter of
+10 units as you can make on a geoboard.).</specific>
+        </specifics>
+      </overall>
+    </overalls>
+  </strand>
+  <strand id="Geometry and Spatial Sense ">
+    <strand_text>Geometry and Spatial Sense </strand_text>
+    <overalls>
+      <overall id="1">
+        <overall_text>identify quadrilaterals and three-dimensional figures and classify them by their geometric properties, and compare various angles to benchmarks;</overall_text>
+        <specifics>
+          <specific>- draw the lines of symmetry of twodimensional shapes, through investigation using a variety of tools (e.g., Mira, grid
+paper) and strategies (e.g., paper folding) (Sample problem: Use paper folding to compare the symmetry of a rectangle with
+the symmetry of a square.);</specific>
+          <specific>- identify and compare different types of quadrilaterals (i.e., rectangle, square, trapezoid, parallelogram, rhombus) and sort and classify them by their geometric properties (e.g., sides of equal length; parallel sides; symmetry; number of right angles);</specific>
+          <specific>- identify benchmark angles (i.e., straight angle, right angle, half a right angle), using a reference tool (e.g., paper and fasteners, pattern blocks, straws), and compare other angles to these benchmarks (e.g.,“The angle the door makes with the wall is smaller than a right angle but greater than half a right angle.”) (Sample problem: Use paper folding to create benchmarks for a straight angle, a right angle, and half a right angle, and use these benchmarks to describe angles found in pattern blocks.); </specific>
+          <specific>- relate the names of the benchmark angles to their measures in degrees (e.g., a right angle is 90º);</specific>
+          <specific>- identify and describe prisms and pyramids, and classify them by their geometric properties (i.e., shape of faces, number of
+edges, number of vertices), using concrete materials.</specific>
+        </specifics>
+      </overall>
+      <overall id="2">
+        <overall_text>construct three-dimensional figures, using two-dimensional shapes;</overall_text>
+        <specifics>
+          <specific>- construct a three-dimensional figure from a picture or model of the figure, using connecting cubes (e.g., use connecting
+cubes to construct a rectangular prism);</specific>
+          <specific>- construct skeletons of three-dimensional figures, using a variety of tools (e.g., straws and modelling clay, toothpicks and marshmallows, Polydrons), and sketch the skeletons;</specific>
+          <specific>- draw and describe nets of rectangular and triangular prisms (Sample problem: Create as many different nets for a cube as you can, and share your results with a partner.);</specific>
+          <specific>- construct prisms and pyramids from given nets;</specific>
+          <specific>- construct three-dimensional figures (e.g., cube, tetrahedron), using only congruent shapes.</specific>
+        </specifics>
+      </overall>
+      <overall id="3">
+        <overall_text>identify and describe the location of an object, using a grid map, and reflect two-dimensional shapes.</overall_text>
+        <specifics>
+          <specific>- identify and describe the general location of an object using a grid system (e.g.,“The library is located at A3 on the map.”);</specific>
+          <specific>- identify, perform, and describe reflections using a variety of tools (e.g., Mira, dot paper, technology);</specific>
+          <specific>- create and analyse symmetrical designs by reflecting a shape, or shapes, using a variety of tools (e.g., pattern locks, Mira, geoboard, drawings), and identify the congruent shapes in the designs.</specific>
+        </specifics>
+      </overall>
+    </overalls>
+  </strand>
+  <strand id="Patterning and Algebra">
+    <strand_text>Patterning and Algebra</strand_text>
+    <overalls>
+      <overall id="1">
+        <overall_text>describe, extend, and create a variety of numeric and geometric patterns, make predictions related to the patterns, and investigate repeating patterns involving reflections;</overall_text>
+        <specifics>
+          <specific>- extend, describe, and create repeating, growing, and shrinking number patterns (e.g., “I created the pattern 1, 3, 4, 6, 7, 9, …. I started at 1, then added 2, then added 1, then added 2, then added 1, and I kept repeating this.”);</specific>
+          <specific>- connect each term in a growing or shrinking pattern with its term number (e.g., in the sequence 1, 4, 7, 10, …, the first term is 1, the second term is 4, the third term is 7, and so on), and record the patterns in a table of values that shows the term number and the term;</specific>
+          <specific>- create a number pattern involving addition, subtraction, or multiplication, given a pattern rule expressed in words (e.g., the pattern rule “start at 1 and multiply each term by 2 to get the next term” generates the sequence 1, 2, 4, 8, 16, 32, 64, …);</specific>
+          <specific>- make predictions related to repeating geometric and numeric patterns (Sample problem: Create a pattern block train by 
+alternating one green triangle with one red trapezoid. Predict which block will be in the 30th place.);</specific>
+          <specific>- extend and create repeating patterns that result from reflections, through investigation using a variety of tools (e.g., pattern blocks, dynamic geometry software, dot paper).</specific>
+        </specifics>
+      </overall>
+      <overall id="2">
+        <overall_text>demonstrate an understanding of equality between pairs of expressions, using addition, subtraction, and multiplication</overall_text>
+        <specifics>
+          <specific>- determine, through investigation, the inverse relationship between multiplication and division (e.g., since 4 x 5 = 20,
+then 20 ÷ 5 = 4; since 35 ÷ 5 = 7, then 7 x 5 = 35);</specific>
+          <specific>- determine the missing number in equations involving multiplication of one- and two-digit numbers, using a variety of tools
+and strategies (e.g., modelling with concrete materials, using guess and check with and without the aid of a calculator)
+(Sample problem: What is the missing number in the equation &#x2; x 4 = 24?);</specific>
+          <specific>- identify, through investigation (e.g., by using sets of objects in arrays, by drawing area models), and use the commutative
+property of multiplication to facilitate computation with whole numbers (e.g., “I know that 15 x 7 x 2 equals 15 x 2 x 7.
+This is easier to multiply in my head because I get 30 x 7 = 210.”);</specific>
+          <specific>- identify, through investigation (e.g., by using sets of objects in arrays, by drawing area models), and use the istributive
+property of multiplication over addition to facilitate computation with whole numbers (e.g.,“I know that 9 x 52 equals 9 x 50 + 9 x 2. This is easier to calculate in my head because I get 450 + 18 = 468.”).</specific>
+        </specifics>
+      </overall>
+    </overalls>
+  </strand>
+  <strand id="Data Management and Probability">
+    <strand_text>Data Management and Probability</strand_text>
+    <overalls>
+      <overall id="1">
+        <overall_text>collect and organize discrete primary data and display the data using charts and graphs, including stem-and-leaf plots and double bar graphs;</overall_text>
+        <specifics>
+          <specific>- collect data by conducting a survey (e.g., “Choose your favourite meal from the following list: breakfast, lunch, dinner,
+other.”) or an experiment to do with themselves, their environment, issues in their school or the community, or content
+from another subject, and record observations or measurements;</specific>
+          <specific>- collect and organize discrete primary data and display the data in charts, tables, and graphs (including stem-and-leaf plots and double bar graphs) that have appropriate titles, labels (e.g., appropriate units marked on the axes), and scales (e.g., with appropriate increments) that suit the range and distribution of the data, using a variety of tools (e.g., graph paper, simple spreadsheets, dynamic statistical software).</specific>
+        </specifics>
+      </overall>
+      <overall id="2">
+        <overall_text>read, describe, and interpret primary data and secondary data presented in charts and graphs,including stem-and-leaf plots and double bar graphs;</overall_text>
+        <specifics>
+          <specific>- read, interpret, and draw conclusions from primary data (e.g., survey results, measurements, observations) and from secondary data (e.g., temperature data in the newspaper, data from the Internet about endangered species), presented in charts, tables, and graphs (including stem-and-leaf plots and double bar graphs);</specific>
+          <specific>- demonstrate, through investigation, an understanding of median (e.g.,“The
+median is the value in the middle of the data. If there are two middle values, you have to calculate the middle of those two values.”), and determine the median of a set of data (e.g.,“I used a stem-and-leaf plot to help me find the median.”); </specific>
+          <specific>- describe the shape of a set of data across its range of values, using charts, tables, and graphs (e.g. “The data values are spread out evenly.”; “The set of data bunches up around the median.”);</specific>
+          <specific>- compare similarities and differences between two related sets of data, using a
+variety of strategies (e.g., by representing the data using tally charts, stem-and-leaf plots, or double bar graphs; by determining the mode or the median; by describing the shape of a data set across its range of values).</specific>
+        </specifics>
+      </overall>
+      <overall id="3">
+        <overall_text>predict the results of a simple probability experiment, then conduct the experiment and compare the prediction to the results</overall_text>
+        <specifics>
+          <specific>- predict the frequency of an outcome in a simple probability experiment, explaining their reasoning; conduct the experiment; and compare the result with the prediction (Sample problem: If you toss a pair of number cubes 20 times and calculate the sum for each toss, how many times would you expect to get 12? 7? 1? Explain your thinking. Then conduct the experiment and compare the results with your predictions.);</specific>
+          <specific>- determine, through investigation, how the  umber of repetitions of a probability experiment can affect the conclusions drawn (Sample problem: Each student in the class tosses a coin 10 times and records how many times tails comes up. Combine the individual student results to determine a class result, and then compare the individual student results and the class result.).</specific>
+        </specifics>
+      </overall>
+    </overalls>
+  </strand>
+</curriculum>

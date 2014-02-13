@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<curriculum>
+<pdf>http://www.edu.gov.on.ca/eng/curriculum/elementary/nativelang18curr.pdf</pdf>
+  <strand id="Oral Communication">
+    <strand_text>Oral Communication</strand_text>
+    <overalls>
+      <overall id="1">
+        <overall_text>a) communicate in various contexts and for a variety of purposes; b)  demonstrate an understanding of simple oral texts, including short stories; c)  demonstrate an understanding of vocabulary and language structures appropriate for this grade; e) demonstrate knowledge and understanding of aspects of the Native culture under study.</overall_text>
+        <specifics>
+          <specific>participate in simple conversations;
+</specific>
+          <specific>demonstrate an understanding of spoken language in various situations and contexts (e.g., summarize a Native story told to the class by a Native speaker from the community);
+</specific>
+          <specific>participate in a variety of structured oral language activities appropriate for the grade (e.g., classify nouns as animate or inanimate, identify kinds of verbs);
+</specific>
+          <specific>use the pronunciation used by Native speakers in the community;
+</specific>
+          <specific>participate in oral presentations (e.g., prepare a presentation on a Native tradition or custom).</specific>
+        </specifics>
+      </overall>
+    </overalls>
+  </strand>
+  <strand id="Reading">
+    <strand_text>Reading</strand_text>
+    <overalls>
+      <overall id="1">
+        <overall_text>a) communicate in various contexts and for a variety of purposes; b) demonstrate an understanding of vocabulary and language structures appropriate for this grade; c) demonstrate an understanding of elements of grammar appropriate for this grade; d)  read a variety of print materials in the writing system used in the program; e) demonstrate knowledge and understanding of aspects of the Native culture under study</overall_text>
+        <specifics>
+          <specific>read a variety of simple written texts (e.g., traditional Native stories and legends, short stories by Native authors);</specific>
+          <specific>demonstrate an understanding of the information and ideas conveyed in written materials (e.g., identify the main ideas in short stories);
+</specific>
+          <specific>participate in a variety of structured reading activities appropriate for the grade (e.g., identify types of sentences in a written text);
+</specific>
+          <specific>use a variety of reading strategies appropriate for the grade (e.g., consider word endings, word order, context);</specific>
+          <specific>read sentences aloud using proper intonation to convey meaning.
+</specific>
+        </specifics>
+      </overall>
+    </overalls>
+  </strand>
+  <strand id="Writing">
+    <strand_text>Writing</strand_text>
+    <overalls>
+      <overall id="1">
+        <overall_text>a) communicate in various contexts and for a variety of purposes; b) demonstrate an understanding of vocabulary and language structures appropriate for this grade; c) demonstrate an understanding of elements of grammar appropriate for this grade; d)  write for a variety of purposes in the writing system used in the program; e) demonstrate knowledge and understanding of aspects of the Native culture under study</overall_text>
+        <specifics>
+          <specific>write a variety of materials (e.g., informal notes, letters, descriptions), using vocabulary and language structures appropriate for the grade;
+</specific>
+          <specific>participate in a variety of structured writing activities appropriate for the grade (e.g., describe an experience using different verb tenses);
+</specific>
+          <specific>use correct spelling in their writing, drawing on a variety of resources (e.g., classroom-displayed vocabulary lists, print and electronic dictionaries, spell-check feature of software programs);</specific>
+          <specific>demonstrate knowledge and understanding of aspects of the Native culture studied in their writing.
+</specific>
+        </specifics>
+      </overall>
+    </overalls>
+  </strand>
+</curriculum>
