@@ -280,33 +280,21 @@ $(document).ready(function () {
     $("#subdd").change(function () {
         try {
             str = $("#subdd option:selected").text();
-            xml = loadXMLDoc("resources/core/" + areasel + "/" + str + "/" + gr + ".xml");
-            path = "/LearningStandards/LearningStandardItem/StatementCodes/StatementCode"
-            pathout = "/LearningStandards/LearningStandardItem/Statements/Statement"
-            var nodes = xml.evaluate(path, xml, null, XPathResult.ANY_TYPE, null);
-            var nodesout = xml.evaluate(pathout, xml, null, XPathResult.ANY_TYPE, null);
+            xml = loadXMLDoc("resources/ont/grade_" + gr + "_" + areasel + ".xml");
+            path = "/curriculum/strand[@id='" + str + "']/overalls/overall/overall_text"
+          
+            var nodes = xml.evaluate(path, xml, null, XPathResult.ANY_TYPE, null);          
             var result = nodes.iterateNext();
-            var resultout = nodesout.iterateNext();
-            var txt = txt = "<table class='rubrictable'><tr><th>add to rubric</th><th>Code</th><th>Grade " + gr + " " + str + " Standards</th></tr>";
+            var txt = txt = "<table class='rubrictable'><tr><th>add to rubric</th><th>Code</th><th>Grade " + gr + " " + str + " Overalls</th></tr>";
 
             while (result) {
-                if (result.childNodes.length > 0) {
-                    var ind = result.childNodes[0].nodeValue;
-                    var newind = ind.replace(/\./g, ' ')
-                } else {
-                    var newind = "n/a"
-                }
-                if (resultout.childNodes.length > 0) {
-                    var over = resultout.childNodes[0].nodeValue;
-
-                } else {
-                    var over = "n/a"
-                }
-                txt = txt + "<tr><td><form><input type='checkbox'></input></td><td>" + newind + "</td><td>" + over + "</td></tr>"
+                ind = result.parentNode.getAttribute("id")
+                var over = result.childNodes[0].nodeValue
+                txt = txt + "<tr><td><form><input type='checkbox'></input></td><td>" + ind + "</td><td>" + over + "</td></tr>"
                 result = nodes.iterateNext();
-                resultout = nodesout.iterateNext();
+                
             }
-            txt = txt + "<tr><td></td><td>Adapted from:</td><td>Common Core State Standards XML files @ www.corestandards.org</td></tr></table></table>"
+            txt = txt + "<tr><td>citation</td><td>Adapted from:</td><td>Ontario Ministry of Education @ www.edu.gov.on.ca/eng/teachers/curriculum.html</td></tr></table></table>"
             document.getElementById('outtable').innerHTML = txt;
             $("#outtable").show();
             $("#addout").show();
@@ -319,7 +307,7 @@ $(document).ready(function () {
     //popout
     function popout() {    
         
-        xml = loadXMLDoc("resources/core/" + areasel + "/" + str + "/" + gr + ".xml");
+        xml = loadXMLDoc("resources/ont/grade_" + gr + "_" + areasel + ".xml");
         path = "/LearningStandards/LearningStandardItem/StatementCodes/StatementCode"
         pathout = "/LearningStandards/LearningStandardItem/Statements/Statement"
         var nodes = xml.evaluate(path, xml, null, XPathResult.ANY_TYPE, null);
