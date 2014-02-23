@@ -224,10 +224,15 @@ $(document).ready(function () {
     });
     //populate subjects
     $("#gradedd").change(function () {
+        $("#strand").hide();
         gr = $(this).val()
         popsub();
-        $("#subdd").selectmenu("refresh", true);
         $("#subjects").show();
+        $("#subdd").val("select subject").attr("selected", true);
+        $("#subdd").selectmenu("refresh", true);
+        
+        
+
     });
     //populate subjects
     function popsub() {
