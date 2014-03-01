@@ -229,10 +229,7 @@ $(document).ready(function () {
         popsub();
         $("#subjects").show();
         $("#subdd").val("select subject").attr("selected", true);
-        $("#subdd").selectmenu("refresh", true);
-        
-        
-
+        $("#subdd").selectmenu("refresh", true);              
     });
     //populate subjects
     function popsub() {
