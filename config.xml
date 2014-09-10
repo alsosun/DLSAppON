@@ -4,8 +4,8 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.digitallearnersolutions.dailyon"
-        version   = "1.2.0"
-        versionCode = "3">
+        version   = "1.2.1"
+        versionCode = "4">
         
 
     <name>Daily Rubric: Ontario</name>
